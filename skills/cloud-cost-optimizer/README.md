@@ -1,0 +1,1 @@
+# cloud-cost-optimizer\nDocumentation for this MCP server.
