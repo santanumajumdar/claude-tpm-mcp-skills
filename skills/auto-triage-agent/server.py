@@ -1,0 +1,1 @@
+def run_skill():\n    print('Running auto-triage-agent MCP server')\n\nif __name__ == '__main__':\n    run_skill()

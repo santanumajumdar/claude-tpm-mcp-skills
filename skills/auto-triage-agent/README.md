@@ -1,0 +1,1 @@
+# auto-triage-agent\nDocumentation for this MCP server.
