@@ -1,0 +1,1 @@
+# cross-repo-contract-monitor\nDocumentation for this MCP server.
