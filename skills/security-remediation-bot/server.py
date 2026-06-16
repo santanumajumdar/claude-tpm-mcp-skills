@@ -1,0 +1,1 @@
+def run_skill():\n    print('Running security-remediation-bot MCP server')\n\nif __name__ == '__main__':\n    run_skill()

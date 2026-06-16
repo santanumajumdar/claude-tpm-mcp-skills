@@ -1,0 +1,1 @@
+# security-remediation-bot\nDocumentation for this MCP server.
