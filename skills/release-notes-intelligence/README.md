@@ -1,0 +1,1 @@
+# release-notes-intelligence\nDocumentation for this MCP server.
