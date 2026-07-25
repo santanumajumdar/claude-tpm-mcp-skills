@@ -1,0 +1,1 @@
+# velocity-burnout-predictor\nDocumentation for this MCP server.
