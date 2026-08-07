@@ -1,0 +1,1 @@
+def run_skill():\n    print('Running resource-allocation-matrix MCP server')\n\nif __name__ == '__main__':\n    run_skill()
