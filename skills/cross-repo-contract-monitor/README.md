@@ -1,1 +1,1 @@
-# cross-repo-contract-monitor\nDocumentation for this MCP server.
+# Cross-Repo Contract Monitor\n\nAn MCP server that checks OpenAPI schemas across microservices to prevent breaking changes.

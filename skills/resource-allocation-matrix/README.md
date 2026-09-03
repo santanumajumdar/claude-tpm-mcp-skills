@@ -1,1 +1,1 @@
-# resource-allocation-matrix\nDocumentation for this MCP server.
+# Resource Allocation Matrix\n\nAn MCP server that optimizes engineer scheduling based on skills and PTO.

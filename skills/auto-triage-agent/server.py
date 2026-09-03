@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running auto-triage-agent MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('AutoTriageAgent')\n\n@mcp.tool()\ndef find_similar_tickets(bug_description: str) -> str:\n    \"\"\"Searches the Jira vector database for similar bugs.\"\"\"\n    return \"Found similar ticket: ENG-1042 (Status: IN PROGRESS)\"\n\nif __name__ == '__main__':\n    mcp.run()

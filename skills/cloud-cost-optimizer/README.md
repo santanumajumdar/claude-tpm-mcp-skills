@@ -1,1 +1,1 @@
-# cloud-cost-optimizer\nDocumentation for this MCP server.
+# Cloud Cost Optimizer\n\nAn MCP server that integrates with AWS Cost Explorer to identify unattached EBS volumes, idle EC2 instances, and unused Elastic IPs.\n\n## Setup\n```bash\npip install mcp boto3\n```\n\n## Usage\nRun the server:\n```bash\npython server.py\n```

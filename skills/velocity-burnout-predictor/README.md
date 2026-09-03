@@ -1,1 +1,1 @@
-# velocity-burnout-predictor\nDocumentation for this MCP server.
+# Velocity Burnout Predictor\n\nAn MCP server that analyzes PR review times and weekend commits to flag burnout.

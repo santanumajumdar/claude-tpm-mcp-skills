@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running prd-to-system-design MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('SystemDesigner')\n\n@mcp.tool()\ndef read_prd(file_path: str) -> str:\n    return \"Goal: Build a real-time chat application using WebSockets, Redis for pub/sub, and a Node.js backend.\"\n\nif __name__ == '__main__':\n    mcp.run()

@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running cross-repo-contract-monitor MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('ContractMonitor')\n\n@mcp.tool()\ndef compare_openapi_specs(base_spec_url: str, pr_spec_url: str) -> str:\n    return \"WARNING: Field 'user_uuid' was removed from response schema. This breaks downstream service 'Orders-API'.\"\n\nif __name__ == '__main__':\n    mcp.run()

@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running resource-allocation-matrix MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('ResourceAllocator')\n\n@mcp.tool()\ndef get_roster() -> str:\n    return \"Alice (Backend, PTO next week), Bob (Frontend), Charlie (DevOps)\"\n\n@mcp.tool()\ndef get_projects() -> str:\n    return \"Project X (Needs Backend & DevOps, High Priority). Project Y (Needs Frontend, Low Priority).\"\n\nif __name__ == '__main__':\n    mcp.run()

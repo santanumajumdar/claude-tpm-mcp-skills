@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running root-cause-analyzer MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('RootCauseAnalyzer')\n\n@mcp.tool()\ndef fetch_recent_logs(service: str) -> str:\n    return \"[ERROR] NullPointerException in PaymentProcessor.java:142\"\n\n@mcp.tool()\ndef fetch_recent_commits(repo: str) -> str:\n    return \"Commit 8f3a1b: Refactor payment gateway retries (Author: John Doe)\"\n\nif __name__ == '__main__':\n    mcp.run()

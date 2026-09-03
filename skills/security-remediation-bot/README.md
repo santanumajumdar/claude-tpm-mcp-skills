@@ -1,1 +1,1 @@
-# security-remediation-bot\nDocumentation for this MCP server.
+# Security Remediation Bot\n\nAn MCP server that uses Snyk/Dependabot alerts to auto-generate fix PRs.

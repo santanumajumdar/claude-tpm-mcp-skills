@@ -1,1 +1,1 @@
-# release-notes-intelligence\nDocumentation for this MCP server.
+# Release Notes Intelligence\n\nAn MCP server that parses merged GitHub PRs and writes tailored release notes.

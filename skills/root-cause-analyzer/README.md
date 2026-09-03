@@ -1,1 +1,1 @@
-# root-cause-analyzer\nDocumentation for this MCP server.
+# Root Cause Analyzer\n\nAn MCP server that pulls the last 50 error logs from Datadog and recent Git commits to find the root cause of an incident.

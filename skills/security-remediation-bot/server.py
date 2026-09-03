@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running security-remediation-bot MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('SecurityBot')\n\n@mcp.tool()\ndef get_cve_alerts() -> str:\n    return \"CVE-2023-4567: High severity Prototype Pollution in lodash < 4.17.21\"\n\nif __name__ == '__main__':\n    mcp.run()

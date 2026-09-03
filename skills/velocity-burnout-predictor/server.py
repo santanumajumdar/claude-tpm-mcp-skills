@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running velocity-burnout-predictor MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('BurnoutPredictor')\n\n@mcp.tool()\ndef get_team_metrics(team_name: str) -> str:\n    return \"Engineer A: 14 commits on Saturday. Average PR review time: 54 hours (Up 200% from last sprint).\"\n\nif __name__ == '__main__':\n    mcp.run()

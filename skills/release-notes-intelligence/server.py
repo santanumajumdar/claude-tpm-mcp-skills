@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running release-notes-intelligence MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP('ReleaseNotes')\n\n@mcp.tool()\ndef get_merged_prs(tag: str) -> str:\n    return \"PR #102: Migrate auth to JWT. PR #104: Add dark mode toggle. PR #105: Fix memory leak in image upload.\"\n\nif __name__ == '__main__':\n    mcp.run()

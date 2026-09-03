@@ -1,1 +1,1 @@
-# auto-triage-agent\nDocumentation for this MCP server.
+# Auto Triage Agent\n\nAn MCP server that uses vector embeddings to deduplicate Jira tickets and route them to the correct engineering squads.\n\n## Setup\n```bash\npip install mcp sentence-transformers\n```

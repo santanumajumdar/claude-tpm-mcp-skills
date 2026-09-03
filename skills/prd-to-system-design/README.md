@@ -1,1 +1,1 @@
-# prd-to-system-design\nDocumentation for this MCP server.
+# PRD to System Design\n\nAn MCP server that converts Markdown PRDs into Mermaid.js C4 architecture diagrams.

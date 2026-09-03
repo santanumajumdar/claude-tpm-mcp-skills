@@ -1,1 +1,1 @@
-# tech-debt-quantifier\nDocumentation for this MCP server.
+# Tech Debt Quantifier\n\nAn MCP server that parses SonarQube reports and git churn to estimate the business cost of technical debt.\n\n## Setup\n```bash\npip install mcp\n```

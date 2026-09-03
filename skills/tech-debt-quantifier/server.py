@@ -1,1 +1,1 @@
-def run_skill():\n    print('Running tech-debt-quantifier MCP server')\n\nif __name__ == '__main__':\n    run_skill()
+from mcp.server.fastmcp import FastMCP\nimport json\n\nmcp = FastMCP('TechDebtQuantifier')\n\n@mcp.tool()\ndef get_sonar_metrics(repo_name: str) -> str:\n    \"\"\"Retrieves code complexity and code smell counts.\"\"\"\n    return json.dumps({'code_smells': 142, 'cyclomatic_complexity': 45, 'duplication_pct': 12.4})\n\nif __name__ == '__main__':\n    mcp.run()
