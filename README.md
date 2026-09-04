@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🧠 Big Tech AI Skills Megarepo (Claude & MCP)</h1>
-  <p><b>The ultimate library of 160+ AI Skills for TPMs, PMs, SDMs, and SDEs in Big Tech.</b></p>
+  <p><b>The ultimate library of 400+ AI Skills for TPMs, PMs, SDMs, and SDEs in Big Tech.</b></p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -13,9 +13,9 @@ This repository provides highly advanced AI personas and skills tailored for Eng
 Located in the `/claude-native-skills/` directory. These are purely prompt-based skills. 
 **How to use:** Simply download the `.md` file and upload it directly into your Claude Web UI / Enterprise using the **"Upload skill"** button.
 - 📁 **`/tpms`**: 100 Skills for Technical Program Managers
-- 📁 **`/pms`**: 20 Skills for Product Managers
-- 📁 **`/sdms`**: 20 Skills for Software Development Managers
-- 📁 **`/sdes`**: 20 Skills for Software Engineers
+- 📁 **`/pms`**: 100 Skills for Product Managers
+- 📁 **`/sdms`**: 100 Skills for Software Development Managers
+- 📁 **`/sdes`**: 100 Skills for Software Engineers
 
 ### 🔌 Tier 2: MCP Servers (Advanced / Local Execution)
 Located in the `/skills/` directory. These are the 100 TPM skills implemented as **Model Context Protocol (MCP)** servers. 
