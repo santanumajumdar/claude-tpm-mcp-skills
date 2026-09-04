@@ -4,153 +4,180 @@
   <meta charset="UTF-8">
   <title>Big Tech AI Skills Megarepo</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="400+ Claude AI Skills & MCP Servers for Big Tech Engineering Leaders.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
-  <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Docsify Themeable (Premium Base) -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  
-  <!-- Dark/Light Mode Toggle CSS -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/style.min.css" title="docsify-darklight-theme" type="text/css" />
+  <!-- Base Dark Theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">
 
   <style>
-    /* 🌟 FLAGSHIP CUSTOM CSS 🌟 */
     :root {
-      --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      --theme-color: #6366f1; /* Indigo */
-      --cover-background-color: #0f172a;
-      --cover-heading-color: #ffffff;
-      --cover-blockquote-color: #cbd5e1;
-      
-      /* Sidebar */
-      --sidebar-background: #ffffff;
-      --sidebar-nav-link-color--active: #6366f1;
-      --sidebar-nav-link-font-weight--active: 600;
+      --theme-color: #ededed;
+      --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --background: #000000;
+      --text-color: #a1a1aa;
+      --heading-color: #ffffff;
+      --sidebar-bg: #0a0a0a;
+      --sidebar-border: #1f1f1f;
     }
 
     body {
       font-family: var(--base-font-family);
-      letter-spacing: -0.01em;
+      background-color: var(--background);
+      color: var(--text-color);
+      -webkit-font-smoothing: antialiased;
     }
 
-    /* Gradient Headers */
-    .markdown-section h1, .markdown-section h2 {
-      font-weight: 800;
-      letter-spacing: -0.03em;
-    }
-    
-    .markdown-section h1 {
-      background: -webkit-linear-gradient(45deg, #6366f1, #ec4899);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 1rem;
-    }
-
-    /* Premium Coverpage Styling */
+    /* Minimalist Coverpage */
     section.cover {
-      background: linear-gradient(135deg, rgba(15,23,42,0.95) 0%, rgba(30,27,75,0.95) 100%) !important;
-    }
-    section.cover h1 {
-      font-size: 4rem;
-      font-weight: 800;
-      background: -webkit-linear-gradient(45deg, #a855f7, #ec4899, #f59e0b);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    section.cover blockquote {
-      font-size: 1.2rem;
-      font-weight: 300;
-      color: #cbd5e1;
-      border: none;
+      background: radial-gradient(circle at 50% -20%, #1a1a2e 0%, #000000 70%) !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
     }
     
-    /* Coverpage Buttons */
-    section.cover .cover-main>p:last-child a {
-      border-radius: 9999px;
-      padding: 0.75rem 2rem;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      border: 1px solid rgba(255,255,255,0.2);
-      background: rgba(255,255,255,0.05);
-      backdrop-filter: blur(10px);
-      color: white;
+    section.cover h1 {
+      font-size: 4.5rem;
+      font-weight: 800;
+      letter-spacing: -0.05em;
+      margin-bottom: 1.5rem;
+      color: #ffffff;
+      background: none;
+      -webkit-text-fill-color: #ffffff;
     }
-    section.cover .cover-main>p:last-child a:last-child {
-      background: #6366f1;
-      border-color: #6366f1;
-    }
-    section.cover .cover-main>p:last-child a:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.5);
-    }
-
-    /* Glassmorphism Code Blocks */
-    .markdown-section pre {
-      background: #1e1e1e;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-      border: 1px solid rgba(255,255,255,0.1);
+    section.cover h1 small {
+      display: none; /* hide version number if docsify tries to add it */
     }
     
-    /* Table Styling */
-    .markdown-section table {
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    section.cover p {
+      font-size: 1.25rem;
+      line-height: 1.6;
+      font-weight: 400;
+      color: #888888;
+      max-width: 600px;
+      margin: 0 auto 3rem auto;
     }
-    .markdown-section th {
-      background: #f8fafc;
+    
+    /* Vercel-style Buttons */
+    section.cover .cover-main>p:last-child {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+    section.cover .cover-main>p:last-child a {
+      border-radius: 6px;
+      padding: 0.8rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 0;
+      transition: all 0.2s ease;
+      border: 1px solid #333333;
+      background: #000000;
+      color: #ededed;
+    }
+    /* Primary button */
+    section.cover .cover-main>p:last-child a:first-child {
+      background: #ffffff;
+      color: #000000;
+      border-color: #ffffff;
+    }
+    section.cover .cover-main>p:last-child a:first-child:hover {
+      background: #e5e5e5;
+    }
+    /* Secondary button */
+    section.cover .cover-main>p:last-child a:last-child:hover {
+      background: #111111;
+      border-color: #444444;
+    }
+
+    /* Clean Sidebar */
+    .sidebar {
+      background-color: var(--sidebar-bg);
+      border-right: 1px solid var(--sidebar-border);
+      padding-top: 2rem;
+    }
+    .sidebar h1 {
       font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .sidebar ul li a {
+      color: #888888;
+      font-size: 0.9rem;
+    }
+    .sidebar ul li a:hover, .sidebar ul li.active>a {
+      color: #ffffff;
+    }
+
+    /* Content Area */
+    .markdown-section {
+      max-width: 850px;
+      padding: 4rem 2rem;
+    }
+    .markdown-section h1, .markdown-section h2, .markdown-section h3 {
+      color: var(--heading-color);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .markdown-section a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+    .markdown-section a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Code blocks */
+    .markdown-section pre {
+      background: #0a0a0a;
+      border: 1px solid #222;
+      border-radius: 8px;
+    }
+    .markdown-section code {
+      color: #e2e8f0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    
+    /* Tables */
+    .markdown-section table th {
+      background: #111;
+      border-color: #333;
+      color: #fff;
+    }
+    .markdown-section table td {
+      border-color: #333;
     }
   </style>
 </head>
 <body>
-  <div id="app">Loading the ultimate AI Megarepo...</div>
+  <div id="app">Initializing system...</div>
   
   <script>
     window.$docsify = {
-      name: '🧠 AI Megarepo',
+      name: 'AI Megarepo',
       repo: 'santanumajumdar/claude-tpm-mcp-skills',
       loadSidebar: true,
-      subMaxLevel: 3,
-      themeColor: '#6366f1',
-      search: 'auto',
-      
-      /* Premium Features */
+      subMaxLevel: 2,
       coverpage: true,
       onlyCover: false,
-      auto2top: true,
-      
-      /* Pagination */
-      pagination: {
-        previousText: 'PREVIOUS',
-        nextText: 'NEXT',
-        crossChapter: true,
-        crossChapterText: true,
-      },
+      search: 'auto',
+      copyCode: {
+        buttonText : 'Copy',
+        errorText  : 'Error',
+        successText: 'Copied'
+      }
     }
   </script>
   
-  <!-- Docsify Core -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  
-  <!-- Search -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  
-  <!-- Syntax Highlighting -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-  
-  <!-- Premium Plugins -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/index.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
 </body>
 </html>
