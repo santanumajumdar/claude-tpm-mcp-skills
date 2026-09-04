@@ -8,12 +8,13 @@ These skills are pure prompt-based Agent Personas. They contain highly rigorous 
 
 ## 📂 Available Roles
 
-We have compiled 160+ native skills across four major Big Tech roles:
+We have compiled 400+ native skills across major Big Tech roles:
 
 - 📁 **[TPMs (100 Skills)](./tpms)**: Technical Program Managers
-- 📁 **[PMs (20 Skills)](./pms)**: Product Managers
-- 📁 **[SDMs (20 Skills)](./sdms)**: Software Development Managers / Engineering Managers
-- 📁 **[SDEs (20 Skills)](./sdes)**: Software Engineers
+- 📁 **[PMs (100 Skills)](./pms)**: Product Managers
+- 📁 **[SDMs (100 Skills)](./sdms)**: Software Development Managers / Engineering Managers
+- 📁 **[SDEs (100 Skills)](./sdes)**: Software Engineers
+- 📁 **[Executives (5 Skills)](./executives)**: C-Suite Personas (CTO, CISO, VPE, CPO, CRO)
 
 ## 🎮 How to Use (Direct Upload)
 
