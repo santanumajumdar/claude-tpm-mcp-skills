@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🧠 Big Tech AI Skills Megarepo (Claude & MCP)</h1>
+  <h1>🧠 Big Tech AI Skills Megarepo (Claude, Cursor, Windsurf & MCP)</h1>
   <p><b>The ultimate library of 400+ AI Skills for TPMs, PMs, SDMs, and SDEs in Big Tech.</b></p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -16,6 +16,8 @@ Located in the `/claude-native-skills/` directory. These are purely prompt-based
 - 📁 **`/pms`**: 100 Skills for Product Managers
 - 📁 **`/sdms`**: 100 Skills for Software Development Managers
 - 📁 **`/sdes`**: 100 Skills for Software Engineers
+- 📁 **`/executives`**: 5 Highly Strategic Skills for C-Suite (CTO, CISO, VPE, CPO)
+
 
 ### 🔌 Tier 2: MCP Servers (Advanced / Local Execution)
 Located in the `/skills/` directory. These are the 100 TPM skills implemented as **Model Context Protocol (MCP)** servers. 
@@ -23,10 +25,10 @@ Located in the `/skills/` directory. These are the 100 TPM skills implemented as
 
 
 ### ⚙️ Tier 3: Claude Code Terminal Harnesses (Advanced CLI)
-Located in `/claude-code-terminal-harnesses`. These are multi-phase, stateful agent frameworks designed specifically for developers using Anthropic's **Claude Code Terminal CLI**. 
+Located in `/claude-code-terminal-harnesses`. These are multi-phase, stateful agent frameworks designed specifically for developers using Anthropic's **Claude Code**, **Cursor**, **Windsurf**, and **Aider**. 
 - Features custom terminal **Slash Commands** (e.g., `/tdd`, `/triage`).
 - Maintains **Persistent Project Memory** across terminal sessions.
-- Includes a 1-click installer (`install_to_claude_cli.sh`) to inject them into `~/.claude/skills`.
+- Includes a 1-click installer (`install_harnesses.sh`) to inject them into `~/.claude/skills`.
 
 ---
 
