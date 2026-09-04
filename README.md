@@ -26,6 +26,16 @@ We are actively building this into the ultimate AI toolkit for TPMs, scaling tow
 | [Release Notes Intelligence](./skills/release-notes-intelligence) | Drafts tailored technical & business release notes. | `GitHub` |
 | [Velocity Burnout Predictor](./skills/velocity-burnout-predictor) | Analyzes Git/Jira latency to flag engineering burnout. | `GitHub`, `Jira` |
 | [Resource Allocation Matrix](./skills/resource-allocation-matrix) | Optimizes scheduling across projects based on PTO. | `BambooHR`, `Jira` |
+| [Compliance Audit Generator](./skills/compliance-audit-generator) | Scans AWS Config to auto-generate SOC2/GDPR audits. | `AWS Config`, `GitHub` |
+| [OKR Alignment Checker](./skills/okr-alignment-checker) | Maps Jira epics to quarterly Google Sheet OKRs. | `Jira`, `Google Sheets` |
+| [Vendor Contract Analyzer](./skills/vendor-contract-analyzer) | Extracts SLA penalties and renewal dates from PDFs. | `OpenAI`, `PyPDF2` |
+| [Chaos Engineering Planner](./skills/chaos-engineering-planner) | Analyzes Sev-1s to propose Gremlin chaos experiments. | `Datadog`, `Gremlin` |
+| [On Call Scheduler Bot](./skills/on-call-scheduler-bot) | Adjusts PagerDuty rotations based on alert fatigue. | `PagerDuty` |
+| [Epic Breakdown Assistant](./skills/epic-breakdown-assistant) | Converts high-level Epics into granular Jira stories. | `Jira` |
+| [SLO Violation Detector](./skills/slo-violation-detector) | Monitors Datadog error budgets for feature freezes. | `Datadog` |
+| [Sprint Retro Summarizer](./skills/sprint-retro-summarizer) | Aggregates Slack retro feedback into action items. | `Slack` |
+| [Feature Flag Manager](./skills/feature-flag-manager) | Identifies stale LaunchDarkly flags for code cleanup. | `LaunchDarkly`, `Jira` |
+| [CI/CD Bottleneck Finder](./skills/ci-cd-bottleneck-finder) | Analyzes GitHub Actions runtimes to find slow tests. | `GitHub Actions` |
 
 ## ⚙️ Getting Started
 Each skill is completely self-contained. Navigate to a specific skill's directory and follow its `README.md` for end-to-end setup instructions, including the specific `claude_desktop_config.json` configuration needed.
