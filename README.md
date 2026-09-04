@@ -1,18 +1,28 @@
 <div align="center">
-  <h1>🧠 Claude TPM MCP Skills</h1>
-  <p><b>A flagship megarepo of Model Context Protocol (MCP) servers and AI Skills for Engineering Leaders.</b></p>
+  <h1>🧠 Big Tech AI Skills Megarepo (Claude & MCP)</h1>
+  <p><b>The ultimate library of 160+ AI Skills for TPMs, PMs, SDMs, and SDEs in Big Tech.</b></p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 </div>
 
 ## 📌 Overview
-This repository contains a growing collection of 10+ advanced Claude AI skills designed specifically for Staff/Principal Technical Program Managers. By implementing the [Model Context Protocol (MCP)](https://modelcontextprotocol.io), these servers allow Claude to securely interface with your internal enterprise tools (Jira, AWS, GitHub, Datadog) to autonomously execute complex TPM workflows.
+This repository provides highly advanced AI personas and skills tailored for Engineering Leaders. We offer two distinct tiers of usage depending on your technical comfort level.
 
-## 🚀 The Goal: 100+ Skills
-We are actively building this into the ultimate AI toolkit for TPMs, scaling towards 100+ specialized skills.
+### 🌟 Tier 1: Claude Native Skills (No-Code)
+Located in the `/claude-native-skills/` directory. These are purely prompt-based skills. 
+**How to use:** Simply download the `.md` file and upload it directly into your Claude Web UI / Enterprise using the **"Upload skill"** button.
+- 📁 **`/tpms`**: 100 Skills for Technical Program Managers
+- 📁 **`/pms`**: 20 Skills for Product Managers
+- 📁 **`/sdms`**: 20 Skills for Software Development Managers
+- 📁 **`/sdes`**: 20 Skills for Software Engineers
 
-## 📂 Available Skills
+### 🔌 Tier 2: MCP Servers (Advanced / Local Execution)
+Located in the `/skills/` directory. These are the 100 TPM skills implemented as **Model Context Protocol (MCP)** servers. 
+**How to use:** These require local Python execution. They connect directly to your local APIs (Jira, GitHub, Datadog, AWS) so Claude can autonomously fetch data and execute workflows.
+
+---
+\n## 📂 Available MCP Servers (Tier 2)\n
 
 | Skill | Description | Key Integrations |
 |-------|-------------|------------------|
