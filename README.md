@@ -21,8 +21,19 @@ Located in the `/claude-native-skills/` directory. These are purely prompt-based
 Located in the `/skills/` directory. These are the 100 TPM skills implemented as **Model Context Protocol (MCP)** servers. 
 **How to use:** These require local Python execution. They connect directly to your local APIs (Jira, GitHub, Datadog, AWS) so Claude can autonomously fetch data and execute workflows.
 
+
+### ⚙️ Tier 3: Claude Code Terminal Harnesses (Advanced CLI)
+Located in `/claude-code-terminal-harnesses`. These are multi-phase, stateful agent frameworks designed specifically for developers using Anthropic's **Claude Code Terminal CLI**. 
+- Features custom terminal **Slash Commands** (e.g., `/tdd`, `/triage`).
+- Maintains **Persistent Project Memory** across terminal sessions.
+- Includes a 1-click installer (`install_to_claude_cli.sh`) to inject them into `~/.claude/skills`.
+
 ---
-\n## 📂 Available MCP Servers (Tier 2)\n
+
+---
+
+## 📂 Available MCP Servers (Tier 2)
+
 
 | Skill | Description | Key Integrations |
 |-------|-------------|------------------|
