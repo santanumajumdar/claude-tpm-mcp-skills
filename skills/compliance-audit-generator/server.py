@@ -1,1 +1,18 @@
-import os, json, logging\nfrom mcp.server.fastmcp import FastMCP\nimport boto3\n\nlogging.basicConfig(level=logging.INFO)\nlogger = logging.getLogger(__name__)\n\nmcp = FastMCP('ComplianceAuditGenerator')\n\n@mcp.tool()\ndef check_aws_config_rules() -> str:\n    if not os.environ.get('AWS_ACCESS_KEY_ID'):\n        logger.warning('No AWS keys, returning simulation.')\n        return json.dumps({'compliant_rules': 145, 'non_compliant': ['s3-bucket-public-read-prohibited']})\n    return json.dumps({'status': 'connected'})\n\nif __name__ == '__main__':\n    mcp.run()
+import os, json, logging
+from mcp.server.fastmcp import FastMCP
+import boto3
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+mcp = FastMCP('ComplianceAuditGenerator')
+
+@mcp.tool()
+def check_aws_config_rules() -> str:
+    if not os.environ.get('AWS_ACCESS_KEY_ID'):
+        logger.warning('No AWS keys, returning simulation.')
+        return json.dumps({'compliant_rules': 145, 'non_compliant': ['s3-bucket-public-read-prohibited']})
+    return json.dumps({'status': 'connected'})
+
+if __name__ == '__main__':
+    mcp.run()
