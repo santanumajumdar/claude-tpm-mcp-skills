@@ -7,14 +7,7 @@
 </div>
 
 ## 📌 Overview
-
-<br/>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/santanumajumdar/claude-tpm-mcp-skills/main/.github/terminal_demo.svg" alt="Terminal Demo" onerror="this.style.display='none'"/>
-  <i>Witness the power of advanced agent workflows directly in your CLI.</i>
-</div>
-<br/>
-\nThis repository provides highly advanced AI personas and skills tailored for Engineering Leaders. We offer two distinct tiers of usage depending on your technical comfort level.
+This repository provides highly advanced AI personas and skills tailored for Engineering Leaders. We offer two distinct tiers of usage depending on your technical comfort level.
 
 ### 🌟 Tier 1: Claude Native Skills (No-Code)
 Located in the `/claude-native-skills/` directory. These are purely prompt-based skills. 
@@ -42,10 +35,7 @@ Located in `/claude-code-terminal-harnesses`. These are multi-phase, stateful ag
 Inspired by AAS Core, located in `/skills/skill-discovery-server`. 
 Instead of manually searching for skills, run this MCP server. Claude will gain a `search_catalog` tool, allowing it to **autonomously query the 400+ skill JSON bundle** and hot-load new capabilities into its own context dynamically based on the current codebase problem.
 
-
-### 🐝 Tier 5: Autonomous Multi-Agent Swarms (NEW)
-Located in `/swarms`. Why use one agent when you can use five? These Python orchestrators chain our personas together. For example, the `saas_factory_swarm.py` spins up a CPO to write the vision, passes it to a TPM for Jira breakdown, and hands it to an SDE swarm to write the code concurrently.
-\n---
+---
 
 ---
 
