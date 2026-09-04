@@ -30,6 +30,11 @@ Located in `/claude-code-terminal-harnesses`. These are multi-phase, stateful ag
 - Maintains **Persistent Project Memory** across terminal sessions.
 - Includes a 1-click installer (`install_harnesses.sh`) to inject them into `~/.claude/skills`.
 
+
+### 🤖 Tier 4: Agent-First Skill Discovery (MCP Meta-Server)
+Inspired by AAS Core, located in `/skills/skill-discovery-server`. 
+Instead of manually searching for skills, run this MCP server. Claude will gain a `search_catalog` tool, allowing it to **autonomously query the 400+ skill JSON bundle** and hot-load new capabilities into its own context dynamically based on the current codebase problem.
+
 ---
 
 ---
