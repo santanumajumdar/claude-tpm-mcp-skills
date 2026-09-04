@@ -2,8 +2,8 @@
   <h1>🧠 Big Tech AI Skills Megarepo (Claude, Cursor, Windsurf & MCP)</h1>
   <p><b>The ultimate library of 400+ AI Skills for TPMs, PMs, SDMs, and SDEs in Big Tech.</b></p>
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
 </div>
 
 ## 📌 Overview
