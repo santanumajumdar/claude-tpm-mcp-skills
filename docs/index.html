@@ -31,9 +31,9 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* Minimalist Coverpage */
+        /* Minimalist Coverpage */
     section.cover {
-      background: radial-gradient(circle at 50% -20%, #1a1a2e 0%, #000000 70%) !important;
+      background: #000000 !important;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -42,58 +42,61 @@
     }
     
     section.cover h1 {
-      font-size: 4.5rem;
-      font-weight: 800;
-      letter-spacing: -0.05em;
-      margin-bottom: 1.5rem;
-      color: #ffffff;
-      background: none;
-      -webkit-text-fill-color: #ffffff;
-    }
-    section.cover h1 small {
-      display: none; /* hide version number if docsify tries to add it */
+      font-size: 4.5rem !important;
+      font-weight: 800 !important;
+      letter-spacing: -0.05em !important;
+      margin-bottom: 1.5rem !important;
+      color: #ffffff !important;
+      background: none !important;
+      -webkit-text-fill-color: #ffffff !important;
     }
     
     section.cover p {
-      font-size: 1.25rem;
-      line-height: 1.6;
-      font-weight: 400;
-      color: #888888;
-      max-width: 600px;
-      margin: 0 auto 3rem auto;
+      font-size: 1.25rem !important;
+      line-height: 1.6 !important;
+      font-weight: 400 !important;
+      color: #cccccc !important;
+      max-width: 600px !important;
+      margin: 0 auto 1.5rem auto !important;
     }
     
     /* Vercel-style Buttons */
-    section.cover .cover-main>p:last-child {
+    .cover-main {
+      z-index: 10;
+    }
+    .cover-main p:last-of-type {
       display: flex;
       gap: 1rem;
       justify-content: center;
+      margin-top: 2rem !important;
     }
-    section.cover .cover-main>p:last-child a {
-      border-radius: 6px;
-      padding: 0.8rem 1.5rem;
-      font-size: 0.95rem;
-      font-weight: 500;
-      text-decoration: none;
-      letter-spacing: 0;
-      transition: all 0.2s ease;
-      border: 1px solid #333333;
-      background: #000000;
-      color: #ededed;
+    .cover-main a {
+      border-radius: 6px !important;
+      padding: 0.8rem 1.5rem !important;
+      font-size: 0.95rem !important;
+      font-weight: 600 !important;
+      text-decoration: none !important;
+      transition: all 0.2s ease !important;
+      display: inline-block !important;
     }
-    /* Primary button */
-    section.cover .cover-main>p:last-child a:first-child {
-      background: #ffffff;
-      color: #000000;
-      border-color: #ffffff;
+    /* Primary button (Get Started) */
+    .cover-main a:first-of-type {
+      background: #ffffff !important;
+      color: #000000 !important;
+      border: 1px solid #ffffff !important;
     }
-    section.cover .cover-main>p:last-child a:first-child:hover {
-      background: #e5e5e5;
+    .cover-main a:first-of-type:hover {
+      background: #e5e5e5 !important;
     }
-    /* Secondary button */
-    section.cover .cover-main>p:last-child a:last-child:hover {
-      background: #111111;
-      border-color: #444444;
+    /* Secondary button (GitHub) */
+    .cover-main a:last-of-type {
+      background: #000000 !important;
+      color: #ffffff !important;
+      border: 1px solid #444444 !important;
+    }
+    .cover-main a:last-of-type:hover {
+      background: #111111 !important;
+      border-color: #666666 !important;
     }
 
     /* Clean Sidebar */
