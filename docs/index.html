@@ -31,43 +31,51 @@
       -webkit-font-smoothing: antialiased;
     }
 
-        /* Minimalist Coverpage */
+            /* Minimalist Coverpage */
+    body {
+      background-color: #000000 !important;
+    }
+    
     section.cover {
       background: #000000 !important;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+    }
+    
+    .cover-main {
+      z-index: 10;
+      max-width: 800px;
+      margin: 0 auto;
     }
     
     section.cover h1 {
-      font-size: 4.5rem !important;
+      font-size: 3.5rem !important;
       font-weight: 800 !important;
-      letter-spacing: -0.05em !important;
-      margin-bottom: 1.5rem !important;
+      letter-spacing: normal !important;
+      margin: 0 auto 1.5rem auto !important;
       color: #ffffff !important;
-      background: none !important;
+      background: transparent !important;
       -webkit-text-fill-color: #ffffff !important;
+      text-align: center !important;
+    }
+    
+    section.cover h1 small {
+      display: none !important;
     }
     
     section.cover p {
       font-size: 1.25rem !important;
       line-height: 1.6 !important;
       font-weight: 400 !important;
-      color: #cccccc !important;
+      color: #a1a1aa !important;
       max-width: 600px !important;
-      margin: 0 auto 1.5rem auto !important;
+      margin: 0 auto 2.5rem auto !important;
+      text-align: center !important;
     }
     
     /* Vercel-style Buttons */
-    .cover-main {
-      z-index: 10;
-    }
     .cover-main p:last-of-type {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
+      display: flex !important;
+      gap: 1rem !important;
+      justify-content: center !important;
       margin-top: 2rem !important;
     }
     .cover-main a {
@@ -92,11 +100,11 @@
     .cover-main a:last-of-type {
       background: #000000 !important;
       color: #ffffff !important;
-      border: 1px solid #444444 !important;
+      border: 1px solid #3f3f46 !important;
     }
     .cover-main a:last-of-type:hover {
-      background: #111111 !important;
-      border-color: #666666 !important;
+      background: #18181b !important;
+      border-color: #52525b !important;
     }
 
     /* Clean Sidebar */
