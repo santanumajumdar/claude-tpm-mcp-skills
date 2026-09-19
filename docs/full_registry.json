@@ -1,0 +1,3575 @@
+{
+  "total_skills": 510,
+  "skills": [
+    {
+      "name": "Garbage Collection Tuner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/garbage-collection-tuner.md"
+    },
+    {
+      "name": "Memory Leak Hunter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/memory-leak-hunter.md"
+    },
+    {
+      "name": "Tech Spec Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/tech-spec-drafter.md"
+    },
+    {
+      "name": "Cron Job Debugger",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/cron-job-debugger.md"
+    },
+    {
+      "name": "Web Scraping Resilience",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/web-scraping-resilience.md"
+    },
+    {
+      "name": "Type Hint Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/type-hint-generator.md"
+    },
+    {
+      "name": "Sql Query Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/sql-query-optimizer.md"
+    },
+    {
+      "name": "Web Vitals Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/web-vitals-optimizer.md"
+    },
+    {
+      "name": "Design Pattern Recommender",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/design-pattern-recommender.md"
+    },
+    {
+      "name": "Cypress E2E Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/cypress-e2e-drafter.md"
+    },
+    {
+      "name": "Feature Flag Wrapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/feature-flag-wrapper.md"
+    },
+    {
+      "name": "Rest Api Versioning Strategy",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/rest-api-versioning-strategy.md"
+    },
+    {
+      "name": "Jwt Decoder Helper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/jwt-decoder-helper.md"
+    },
+    {
+      "name": "Terminal Cli Builder",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/terminal-cli-builder.md"
+    },
+    {
+      "name": "Database Migration Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/database-migration-generator.md"
+    },
+    {
+      "name": "Graphql Resolver Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/graphql-resolver-optimizer.md"
+    },
+    {
+      "name": "Jest Setup Helper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/jest-setup-helper.md"
+    },
+    {
+      "name": "Circuit Breaker Implementer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/circuit-breaker-implementer.md"
+    },
+    {
+      "name": "Css Grid Layout Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/css-grid-layout-generator.md"
+    },
+    {
+      "name": "Image Optimization Script",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/image-optimization-script.md"
+    },
+    {
+      "name": "Boundary Value Tester",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/boundary-value-tester.md"
+    },
+    {
+      "name": "Kubernetes Yaml Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/kubernetes-yaml-generator.md"
+    },
+    {
+      "name": "Git Conflict Resolver",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/git-conflict-resolver.md"
+    },
+    {
+      "name": "Test Driven Stubber",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/test-driven-stubber.md"
+    },
+    {
+      "name": "Frontend Ux Architect",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/frontend-ux-architect.md"
+    },
+    {
+      "name": "Dry Code Extractor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/dry-code-extractor.md"
+    },
+    {
+      "name": "Browser Extension Manifest",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/browser-extension-manifest.md"
+    },
+    {
+      "name": "Playwright Test Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/playwright-test-generator.md"
+    },
+    {
+      "name": "Graphql Query Builder",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/graphql-query-builder.md"
+    },
+    {
+      "name": "Bash Script Explainer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/bash-script-explainer.md"
+    },
+    {
+      "name": "Xss Prevention Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/xss-prevention-auditor.md"
+    },
+    {
+      "name": "Regex Explainer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/regex-explainer.md"
+    },
+    {
+      "name": "Stack Trace Decrypter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/stack-trace-decrypter.md"
+    },
+    {
+      "name": "Accessibility Aria Fixer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/accessibility-aria-fixer.md"
+    },
+    {
+      "name": "Naming Convention Enforcer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/naming-convention-enforcer.md"
+    },
+    {
+      "name": "Ci Yaml Fixer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/ci-yaml-fixer.md"
+    },
+    {
+      "name": "File Upload Streamer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/file-upload-streamer.md"
+    },
+    {
+      "name": "Cyclomatic Complexity Reducer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/cyclomatic-complexity-reducer.md"
+    },
+    {
+      "name": "Kafka Topic Partitioner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/kafka-topic-partitioner.md"
+    },
+    {
+      "name": "Sql Injection Patcher",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/sql-injection-patcher.md"
+    },
+    {
+      "name": "Rate Limiting Middleware",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/rate-limiting-middleware.md"
+    },
+    {
+      "name": "Load Test Script Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/load-test-script-writer.md"
+    },
+    {
+      "name": "Log Formatting Standardizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/log-formatting-standardizer.md"
+    },
+    {
+      "name": "Async Await Converter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/async-await-converter.md"
+    },
+    {
+      "name": "Prometheus Alert Rules",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/prometheus-alert-rules.md"
+    },
+    {
+      "name": "Pii Anonymization Script",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/pii-anonymization-script.md"
+    },
+    {
+      "name": "Elastic Search Query Builder",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/elastic-search-query-builder.md"
+    },
+    {
+      "name": "Retry With Backoff Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/retry-with-backoff-writer.md"
+    },
+    {
+      "name": "Bash Automation Toolkit",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/bash-automation-toolkit.md"
+    },
+    {
+      "name": "Dead Code Hunter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/dead-code-hunter.md"
+    },
+    {
+      "name": "Html Semantic Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/html-semantic-auditor.md"
+    },
+    {
+      "name": "Variable Name Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/variable-name-generator.md"
+    },
+    {
+      "name": "Solid Principle Refactor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/solid-principle-refactor.md"
+    },
+    {
+      "name": "Dependency Vulnerability Updater",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/dependency-vulnerability-updater.md"
+    },
+    {
+      "name": "Dotfiles Configurator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/dotfiles-configurator.md"
+    },
+    {
+      "name": "Terraform Module Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/terraform-module-drafter.md"
+    },
+    {
+      "name": "Cve Patch Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/cve-patch-analyzer.md"
+    },
+    {
+      "name": "Mutation Testing Explainer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/mutation-testing-explainer.md"
+    },
+    {
+      "name": "Unit Test Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/unit-test-generator.md"
+    },
+    {
+      "name": "Regex Performance Tuner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/regex-performance-tuner.md"
+    },
+    {
+      "name": "Tailwind Class Translator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/tailwind-class-translator.md"
+    },
+    {
+      "name": "Time Zone Bug Fixer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/time-zone-bug-fixer.md"
+    },
+    {
+      "name": "Sql Index Recommender",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/sql-index-recommender.md"
+    },
+    {
+      "name": "Dockerfile Linter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/dockerfile-linter.md"
+    },
+    {
+      "name": "React Render Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/react-render-optimizer.md"
+    },
+    {
+      "name": "Code Reviewer Bot",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/code-reviewer-bot.md"
+    },
+    {
+      "name": "Local Storage Manager",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/local-storage-manager.md"
+    },
+    {
+      "name": "Service Worker Caching",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/service-worker-caching.md"
+    },
+    {
+      "name": "Changelog Automator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/changelog-automator.md"
+    },
+    {
+      "name": "Data Pipeline Dag Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/data-pipeline-dag-writer.md"
+    },
+    {
+      "name": "Docker Root Privilege Remover",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/docker-root-privilege-remover.md"
+    },
+    {
+      "name": "Api Contract Tester",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/api-contract-tester.md"
+    },
+    {
+      "name": "Api Payload Mocker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/api-payload-mocker.md"
+    },
+    {
+      "name": "Svg Animation Helper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/svg-animation-helper.md"
+    },
+    {
+      "name": "Css Flexbox Grid Helper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/css-flexbox-grid-helper.md"
+    },
+    {
+      "name": "Pdf Generation Helper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/pdf-generation-helper.md"
+    },
+    {
+      "name": "Nginx Reverse Proxy Config",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/nginx-reverse-proxy-config.md"
+    },
+    {
+      "name": "Internationalization I18N Setup",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/internationalization-i18n-setup.md"
+    },
+    {
+      "name": "Memory Profiling Guide",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/memory-profiling-guide.md"
+    },
+    {
+      "name": "Query Plan Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/query-plan-analyzer.md"
+    },
+    {
+      "name": "Swagger Openapi Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/swagger-openapi-generator.md"
+    },
+    {
+      "name": "Csv Export Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/csv-export-generator.md"
+    },
+    {
+      "name": "Cherry Pick Conflict Resolver",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/cherry-pick-conflict-resolver.md"
+    },
+    {
+      "name": "Caching Strategy Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/caching-strategy-designer.md"
+    },
+    {
+      "name": "Magic Number Eliminator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/magic-number-eliminator.md"
+    },
+    {
+      "name": "Github Actions Yaml Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/github-actions-yaml-generator.md"
+    },
+    {
+      "name": "Readme Documentation Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/readme-documentation-generator.md"
+    },
+    {
+      "name": "N Plus One Query Fixer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/n-plus-one-query-fixer.md"
+    },
+    {
+      "name": "Big O Calculator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/big-o-calculator.md"
+    },
+    {
+      "name": "Jwt Implementation Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/jwt-implementation-reviewer.md"
+    },
+    {
+      "name": "Cron Expression Translator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/cron-expression-translator.md"
+    },
+    {
+      "name": "Git Rebase Interactive Guide",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/git-rebase-interactive-guide.md"
+    },
+    {
+      "name": "Floating Point Currency Fixer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/floating-point-currency-fixer.md"
+    },
+    {
+      "name": "Grpc Protobuf Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/grpc-protobuf-designer.md"
+    },
+    {
+      "name": "Frontend Bundle Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/frontend-bundle-optimizer.md"
+    },
+    {
+      "name": "Cors Configuration Fixer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/cors-configuration-fixer.md"
+    },
+    {
+      "name": "Nosql Schema Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/nosql-schema-designer.md"
+    },
+    {
+      "name": "Makefile Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/makefile-generator.md"
+    },
+    {
+      "name": "Oauth2 Flow Explainer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/oauth2-flow-explainer.md"
+    },
+    {
+      "name": "Git Bisect Helper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/git-bisect-helper.md"
+    },
+    {
+      "name": "Websocket Connection Manager",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/websocket-connection-manager.md"
+    },
+    {
+      "name": "Mock Data Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdes/mock-data-generator.md"
+    },
+    {
+      "name": "Pricing Elasticity Tester",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/pricing-elasticity-tester.md"
+    },
+    {
+      "name": "Roadmap Dependency Mapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/roadmap-dependency-mapper.md"
+    },
+    {
+      "name": "Product Teardown Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/product-teardown-analyzer.md"
+    },
+    {
+      "name": "Error State Copywriter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/error-state-copywriter.md"
+    },
+    {
+      "name": "Api Product Manager",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/api-product-manager.md"
+    },
+    {
+      "name": "Compliance Product Mapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/compliance-product-mapper.md"
+    },
+    {
+      "name": "Onboarding Funnel Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/onboarding-funnel-optimizer.md"
+    },
+    {
+      "name": "Empty State Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/empty-state-designer.md"
+    },
+    {
+      "name": "Support Macro Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/support-macro-generator.md"
+    },
+    {
+      "name": "Customer Interview Synthesizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/customer-interview-synthesizer.md"
+    },
+    {
+      "name": "Accessibility Requirements Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/accessibility-requirements-drafter.md"
+    },
+    {
+      "name": "Migration Wizard Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/migration-wizard-designer.md"
+    },
+    {
+      "name": "Build Vs Buy Matrix",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/build-vs-buy-matrix.md"
+    },
+    {
+      "name": "Hardware Software Sync",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/hardware-software-sync.md"
+    },
+    {
+      "name": "Webinar Script Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/webinar-script-writer.md"
+    },
+    {
+      "name": "Two Sided Marketplace Balancer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/two-sided-marketplace-balancer.md"
+    },
+    {
+      "name": "Engineering Pushback Handler",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/engineering-pushback-handler.md"
+    },
+    {
+      "name": "Board Deck Slide Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/board-deck-slide-drafter.md"
+    },
+    {
+      "name": "Feature Usage Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/feature-usage-tracker.md"
+    },
+    {
+      "name": "User Interview Script Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/user-interview-script-writer.md"
+    },
+    {
+      "name": "Gamification Mechanic Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/gamification-mechanic-designer.md"
+    },
+    {
+      "name": "Sprint Goal Aligner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/sprint-goal-aligner.md"
+    },
+    {
+      "name": "Feature Request Triage",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/feature-request-triage.md"
+    },
+    {
+      "name": "Jobs To Be Done Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/jobs-to-be-done-drafter.md"
+    },
+    {
+      "name": "Churn Survey Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/churn-survey-analyzer.md"
+    },
+    {
+      "name": "Sunset Communication Plan",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/sunset-communication-plan.md"
+    },
+    {
+      "name": "Api Deprecation Communicator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/api-deprecation-communicator.md"
+    },
+    {
+      "name": "Revenue Churn Forecaster",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/revenue-churn-forecaster.md"
+    },
+    {
+      "name": "Feature Flag Rollout Plan",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/feature-flag-rollout-plan.md"
+    },
+    {
+      "name": "Beta Tester Recruiter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/beta-tester-recruiter.md"
+    },
+    {
+      "name": "Localization Scoper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/localization-scoper.md"
+    },
+    {
+      "name": "Ai Prompt Ux Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/ai-prompt-ux-designer.md"
+    },
+    {
+      "name": "Persona Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/persona-generator.md"
+    },
+    {
+      "name": "Localization Strategist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/localization-strategist.md"
+    },
+    {
+      "name": "Freemium Conversion Driver",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/freemium-conversion-driver.md"
+    },
+    {
+      "name": "Pivot Memo Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/pivot-memo-writer.md"
+    },
+    {
+      "name": "Billing Failure Recovery",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/billing-failure-recovery.md"
+    },
+    {
+      "name": "Competitor Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/competitor-analyzer.md"
+    },
+    {
+      "name": "Sales Enablement One Pager",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/sales-enablement-one-pager.md"
+    },
+    {
+      "name": "Security Review Prep",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/security-review-prep.md"
+    },
+    {
+      "name": "Case Study Questionnaire",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/case-study-questionnaire.md"
+    },
+    {
+      "name": "Legal Compliance Checklist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/legal-compliance-checklist.md"
+    },
+    {
+      "name": "Affiliate Program Scoper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/affiliate-program-scoper.md"
+    },
+    {
+      "name": "Exec Summary Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/exec-summary-generator.md"
+    },
+    {
+      "name": "Survey Bias Checker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/survey-bias-checker.md"
+    },
+    {
+      "name": "Edge Case Brainstormer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/edge-case-brainstormer.md"
+    },
+    {
+      "name": "Beta Feedback Loop",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/beta-feedback-loop.md"
+    },
+    {
+      "name": "Weekly Status Update Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/weekly-status-update-writer.md"
+    },
+    {
+      "name": "A B Test Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/a-b-test-designer.md"
+    },
+    {
+      "name": "Partnership Api Scoper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/partnership-api-scoper.md"
+    },
+    {
+      "name": "Persona Pain Point Mapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/persona-pain-point-mapper.md"
+    },
+    {
+      "name": "Onboarding Tool Tip Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/onboarding-tool-tip-writer.md"
+    },
+    {
+      "name": "Seo Product Requirements",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/seo-product-requirements.md"
+    },
+    {
+      "name": "Competitor Pricing Scraper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/competitor-pricing-scraper.md"
+    },
+    {
+      "name": "Okr Grading Assistant",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/okr-grading-assistant.md"
+    },
+    {
+      "name": "Core Loop Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/core-loop-optimizer.md"
+    },
+    {
+      "name": "Kpi Target Setter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/kpi-target-setter.md"
+    },
+    {
+      "name": "Technical Debt Impact Scorer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/technical-debt-impact-scorer.md"
+    },
+    {
+      "name": "Metric Tree Mapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/metric-tree-mapper.md"
+    },
+    {
+      "name": "Release Blocker Triage",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/release-blocker-triage.md"
+    },
+    {
+      "name": "Go To Market Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/go-to-market-planner.md"
+    },
+    {
+      "name": "Admin Dashboard Scoper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/admin-dashboard-scoper.md"
+    },
+    {
+      "name": "Press Release Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/press-release-drafter.md"
+    },
+    {
+      "name": "Transactional Email Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/transactional-email-reviewer.md"
+    },
+    {
+      "name": "Data Dictionary Creator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/data-dictionary-creator.md"
+    },
+    {
+      "name": "Empty Cart Recovery Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/empty-cart-recovery-planner.md"
+    },
+    {
+      "name": "Ltv Cac Calculator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/ltv-cac-calculator.md"
+    },
+    {
+      "name": "Feature Announcement Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/feature-announcement-writer.md"
+    },
+    {
+      "name": "App Store Changelog Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/app-store-changelog-writer.md"
+    },
+    {
+      "name": "Aha Moment Finder",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/aha-moment-finder.md"
+    },
+    {
+      "name": "Funnel Conversion Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/funnel-conversion-optimizer.md"
+    },
+    {
+      "name": "Prd Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/prd-drafter.md"
+    },
+    {
+      "name": "Okr Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/okr-drafter.md"
+    },
+    {
+      "name": "Daily Active Users Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/daily-active-users-analyzer.md"
+    },
+    {
+      "name": "Product Hunt Launch Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/product-hunt-launch-planner.md"
+    },
+    {
+      "name": "Win Loss Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/win-loss-analyzer.md"
+    },
+    {
+      "name": "Pricing Tier Modeler",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/pricing-tier-modeler.md"
+    },
+    {
+      "name": "Stakeholder Alignment Memo",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/stakeholder-alignment-memo.md"
+    },
+    {
+      "name": "User Story Slicer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/user-story-slicer.md"
+    },
+    {
+      "name": "Market Sizing Estimator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/market-sizing-estimator.md"
+    },
+    {
+      "name": "Usability Test Synthesizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/usability-test-synthesizer.md"
+    },
+    {
+      "name": "Product Vision Narrative",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/product-vision-narrative.md"
+    },
+    {
+      "name": "Trust And Safety Policy Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/trust-and-safety-policy-drafter.md"
+    },
+    {
+      "name": "Cohort Retention Modeler",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/cohort-retention-modeler.md"
+    },
+    {
+      "name": "Feature Parity Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/feature-parity-auditor.md"
+    },
+    {
+      "name": "Nps Detractor Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/nps-detractor-analyzer.md"
+    },
+    {
+      "name": "Customer Advisory Board Prep",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/customer-advisory-board-prep.md"
+    },
+    {
+      "name": "Roi Business Case",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/roi-business-case.md"
+    },
+    {
+      "name": "App Rating Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/app-rating-optimizer.md"
+    },
+    {
+      "name": "Roadmap Prioritizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/roadmap-prioritizer.md"
+    },
+    {
+      "name": "Uxt Review Checklist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/uxt-review-checklist.md"
+    },
+    {
+      "name": "Buy Vs Build Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/buy-vs-build-analyzer.md"
+    },
+    {
+      "name": "Subscription Pause Flow",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/subscription-pause-flow.md"
+    },
+    {
+      "name": "Churn Prediction Modeler",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/churn-prediction-modeler.md"
+    },
+    {
+      "name": "Push Notification Strategist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/push-notification-strategist.md"
+    },
+    {
+      "name": "Acceptance Criteria Writer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/acceptance-criteria-writer.md"
+    },
+    {
+      "name": "Feature Audit Matrix",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/feature-audit-matrix.md"
+    },
+    {
+      "name": "Growth Loop Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/growth-loop-designer.md"
+    },
+    {
+      "name": "Time To Value Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/time-to-value-optimizer.md"
+    },
+    {
+      "name": "Marketing Site Copy Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/pms/marketing-site-copy-reviewer.md"
+    },
+    {
+      "name": "Take Home Assignment Designer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/take-home-assignment-designer.md"
+    },
+    {
+      "name": "Staff Engineer Project Scoper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/staff-engineer-project-scoper.md"
+    },
+    {
+      "name": "Engineering Metrics Dashboard",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/engineering-metrics-dashboard.md"
+    },
+    {
+      "name": "Security Patch Sla Enforcer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/security-patch-sla-enforcer.md"
+    },
+    {
+      "name": "Sprint Retro Facilitator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/sprint-retro-facilitator.md"
+    },
+    {
+      "name": "Code Review Sla Monitor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/code-review-sla-monitor.md"
+    },
+    {
+      "name": "Tech Talk Schedule Organizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/tech-talk-schedule-organizer.md"
+    },
+    {
+      "name": "Bootcamp Grad Onboarding",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/bootcamp-grad-onboarding.md"
+    },
+    {
+      "name": "Team Health Survey Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/team-health-survey-analyzer.md"
+    },
+    {
+      "name": "Vendor Evaluation Matrix",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/vendor-evaluation-matrix.md"
+    },
+    {
+      "name": "Vendor Budget Forecaster",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/vendor-budget-forecaster.md"
+    },
+    {
+      "name": "Engineering Levels Mapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/engineering-levels-mapper.md"
+    },
+    {
+      "name": "Software License Compliance",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/software-license-compliance.md"
+    },
+    {
+      "name": "Test Coverage Policy",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/test-coverage-policy.md"
+    },
+    {
+      "name": "Holiday Code Freeze Policy",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/holiday-code-freeze-policy.md"
+    },
+    {
+      "name": "Job Description Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/job-description-optimizer.md"
+    },
+    {
+      "name": "Conflict Resolution Mediator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/conflict-resolution-mediator.md"
+    },
+    {
+      "name": "Team Offsite Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/team-offsite-planner.md"
+    },
+    {
+      "name": "Cross Cultural Communication",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/cross-cultural-communication.md"
+    },
+    {
+      "name": "Monolith To Microservice Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/monolith-to-microservice-planner.md"
+    },
+    {
+      "name": "Engineering All Hands Deck",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/engineering-all-hands-deck.md"
+    },
+    {
+      "name": "Flaky Test Budgeter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/flaky-test-budgeter.md"
+    },
+    {
+      "name": "Incident Commander Script",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/incident-commander-script.md"
+    },
+    {
+      "name": "Buy Vs Build Engineering Cost",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/buy-vs-build-engineering-cost.md"
+    },
+    {
+      "name": "Epic Estimation Facilitator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/epic-estimation-facilitator.md"
+    },
+    {
+      "name": "Diversity Hiring Pipeline",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/diversity-hiring-pipeline.md"
+    },
+    {
+      "name": "Burn Down Chart Explainer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/burn-down-chart-explainer.md"
+    },
+    {
+      "name": "Cross Team Dependency Memo",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/cross-team-dependency-memo.md"
+    },
+    {
+      "name": "System Design Interview Rubric",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/system-design-interview-rubric.md"
+    },
+    {
+      "name": "Imposter Syndrome Coach",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/imposter-syndrome-coach.md"
+    },
+    {
+      "name": "Game Day Chaos Coordinator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/game-day-chaos-coordinator.md"
+    },
+    {
+      "name": "Skip Level Meeting Prep",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/skip-level-meeting-prep.md"
+    },
+    {
+      "name": "Database Migration Risk Assessor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/database-migration-risk-assessor.md"
+    },
+    {
+      "name": "Cross Squad Dependency Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/cross-squad-dependency-tracker.md"
+    },
+    {
+      "name": "Hiring Rubric Creator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/hiring-rubric-creator.md"
+    },
+    {
+      "name": "Post Launch Monitoring Plan",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/post-launch-monitoring-plan.md"
+    },
+    {
+      "name": "Tech Debt Negotiator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/tech-debt-negotiator.md"
+    },
+    {
+      "name": "Patent Application Helper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/patent-application-helper.md"
+    },
+    {
+      "name": "1 On 1 Agenda Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/1-on-1-agenda-generator.md"
+    },
+    {
+      "name": "Pull Request Size Policy",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/pull-request-size-policy.md"
+    },
+    {
+      "name": "Attrition Risk Modeler",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/attrition-risk-modeler.md"
+    },
+    {
+      "name": "Pair Programming Rotation",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/pair-programming-rotation.md"
+    },
+    {
+      "name": "Qa To Dev Ratio Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/qa-to-dev-ratio-analyzer.md"
+    },
+    {
+      "name": "Slo Error Budget Policy",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/slo-error-budget-policy.md"
+    },
+    {
+      "name": "Onboarding Plan Creator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/onboarding-plan-creator.md"
+    },
+    {
+      "name": "Legacy System Sunset Plan",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/legacy-system-sunset-plan.md"
+    },
+    {
+      "name": "Accessibility Training Plan",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/accessibility-training-plan.md"
+    },
+    {
+      "name": "Sprint Velocity Normalizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/sprint-velocity-normalizer.md"
+    },
+    {
+      "name": "Intern Project Scoper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/intern-project-scoper.md"
+    },
+    {
+      "name": "Agile Ceremony Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/agile-ceremony-auditor.md"
+    },
+    {
+      "name": "Offer Negotiation Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/offer-negotiation-planner.md"
+    },
+    {
+      "name": "Mentorship Pairing Bot",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/mentorship-pairing-bot.md"
+    },
+    {
+      "name": "Architecture Decision Record Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/architecture-decision-record-reviewer.md"
+    },
+    {
+      "name": "Low Performer Pip Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/low-performer-pip-drafter.md"
+    },
+    {
+      "name": "Ci Cd Investment Case",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/ci-cd-investment-case.md"
+    },
+    {
+      "name": "Story Point Inflation Detector",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/story-point-inflation-detector.md"
+    },
+    {
+      "name": "Offshore Team Sync Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/offshore-team-sync-planner.md"
+    },
+    {
+      "name": "Security Champion Program",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/security-champion-program.md"
+    },
+    {
+      "name": "Compensation Calibration Prep",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/compensation-calibration-prep.md"
+    },
+    {
+      "name": "Team Charter Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/team-charter-drafter.md"
+    },
+    {
+      "name": "High Performer Retention",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/high-performer-retention.md"
+    },
+    {
+      "name": "Tech Debt Bankruptcy Memo",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/tech-debt-bankruptcy-memo.md"
+    },
+    {
+      "name": "Performance Review Synthesizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/performance-review-synthesizer.md"
+    },
+    {
+      "name": "Incident Communication Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/incident-communication-drafter.md"
+    },
+    {
+      "name": "Engineering Blog Post Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/engineering-blog-post-reviewer.md"
+    },
+    {
+      "name": "Manager Of Managers Transition",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/manager-of-managers-transition.md"
+    },
+    {
+      "name": "Engineering Values Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/engineering-values-drafter.md"
+    },
+    {
+      "name": "Diversity Inclusion Check",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/diversity-inclusion-check.md"
+    },
+    {
+      "name": "Release Readiness Checklist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/release-readiness-checklist.md"
+    },
+    {
+      "name": "Hackathon Idea Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/hackathon-idea-generator.md"
+    },
+    {
+      "name": "Compliance Audit Coordinator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/compliance-audit-coordinator.md"
+    },
+    {
+      "name": "Onboarding Buddy Guidelines",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/onboarding-buddy-guidelines.md"
+    },
+    {
+      "name": "Postmortem Blameless Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/postmortem-blameless-reviewer.md"
+    },
+    {
+      "name": "Behavioral Interview Questions",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/behavioral-interview-questions.md"
+    },
+    {
+      "name": "Offboarding Checklist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/offboarding-checklist.md"
+    },
+    {
+      "name": "Remote Work Asynchrony Guide",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/remote-work-asynchrony-guide.md"
+    },
+    {
+      "name": "Okr Progress Reporter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/okr-progress-reporter.md"
+    },
+    {
+      "name": "On Call Burnout Balancer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/on-call-burnout-balancer.md"
+    },
+    {
+      "name": "Disaster Recovery Drill Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/disaster-recovery-drill-planner.md"
+    },
+    {
+      "name": "Conference Budget Allocator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/conference-budget-allocator.md"
+    },
+    {
+      "name": "Candidate Rejection Emailer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/candidate-rejection-emailer.md"
+    },
+    {
+      "name": "Burnout Detector",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/burnout-detector.md"
+    },
+    {
+      "name": "Promo Doc Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/promo-doc-reviewer.md"
+    },
+    {
+      "name": "Tech Spec Review Checklist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/tech-spec-review-checklist.md"
+    },
+    {
+      "name": "Cloud Cost Anomaly Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/cloud-cost-anomaly-reviewer.md"
+    },
+    {
+      "name": "Meeting Free Day Enforcer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/meeting-free-day-enforcer.md"
+    },
+    {
+      "name": "Open Source Contribution Policy",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/open-source-contribution-policy.md"
+    },
+    {
+      "name": "Career Ladder Mapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/career-ladder-mapper.md"
+    },
+    {
+      "name": "Manager Readme Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/manager-readme-generator.md"
+    },
+    {
+      "name": "Device Procurement Justification",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/device-procurement-justification.md"
+    },
+    {
+      "name": "Team Reorg Communication",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/team-reorg-communication.md"
+    },
+    {
+      "name": "Contractor Onboarding Checklist",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/sdms/contractor-onboarding-checklist.md"
+    },
+    {
+      "name": "Cto Board Deck Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/executives/cto-board-deck-generator.md"
+    },
+    {
+      "name": "Cpo Product Vision Narrative",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/executives/cpo-product-vision-narrative.md"
+    },
+    {
+      "name": "Ciso Breach Disclosure Drafter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/executives/ciso-breach-disclosure-drafter.md"
+    },
+    {
+      "name": "Cro Revenue Leakage Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/executives/cro-revenue-leakage-analyzer.md"
+    },
+    {
+      "name": "Vpe Reorg Architect",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/executives/vpe-reorg-architect.md"
+    },
+    {
+      "name": "Feature Adoption Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/feature-adoption-tracker.md"
+    },
+    {
+      "name": "Epic Breakdown Assistant",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/epic-breakdown-assistant.md"
+    },
+    {
+      "name": "Open Source License Scanner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/open-source-license-scanner.md"
+    },
+    {
+      "name": "Docker Image Bloat Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/docker-image-bloat-analyzer.md"
+    },
+    {
+      "name": "Tpm Portfolio Summarizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/tpm-portfolio-summarizer.md"
+    },
+    {
+      "name": "Software License Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/software-license-optimizer.md"
+    },
+    {
+      "name": "Slo Violation Detector",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/slo-violation-detector.md"
+    },
+    {
+      "name": "Nps Feedback Categorizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/nps-feedback-categorizer.md"
+    },
+    {
+      "name": "Canary Deployment Evaluator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/canary-deployment-evaluator.md"
+    },
+    {
+      "name": "Pr Size Enforcer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/pr-size-enforcer.md"
+    },
+    {
+      "name": "Chaos Engineering Planner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/chaos-engineering-planner.md"
+    },
+    {
+      "name": "Database Migration Reviewer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/database-migration-reviewer.md"
+    },
+    {
+      "name": "Deprecated Api Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/deprecated-api-tracker.md"
+    },
+    {
+      "name": "Dependency Blocker Escalator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/dependency-blocker-escalator.md"
+    },
+    {
+      "name": "Meeting Cost Calculator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/meeting-cost-calculator.md"
+    },
+    {
+      "name": "Data Retention Enforcer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/data-retention-enforcer.md"
+    },
+    {
+      "name": "Vendor Contract Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/vendor-contract-analyzer.md"
+    },
+    {
+      "name": "Vendor Security Questionnaire Bot",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/vendor-security-questionnaire-bot.md"
+    },
+    {
+      "name": "Cloud Cost Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/cloud-cost-optimizer.md"
+    },
+    {
+      "name": "Prd To System Design",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/prd-to-system-design.md"
+    },
+    {
+      "name": "Security Remediation Bot",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/security-remediation-bot.md"
+    },
+    {
+      "name": "Flaky Test Quarantiner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/flaky-test-quarantiner.md"
+    },
+    {
+      "name": "Monorepo Impact Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/monorepo-impact-analyzer.md"
+    },
+    {
+      "name": "Secrets In Code Remediator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/secrets-in-code-remediator.md"
+    },
+    {
+      "name": "Stakeholder Update Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/stakeholder-update-generator.md"
+    },
+    {
+      "name": "Deployment Frequency Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/deployment-frequency-tracker.md"
+    },
+    {
+      "name": "Engineering Kpi Dashboarder",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/engineering-kpi-dashboarder.md"
+    },
+    {
+      "name": "Dependency Confusion Preventer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/dependency-confusion-preventer.md"
+    },
+    {
+      "name": "Competitor Feature Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/competitor-feature-tracker.md"
+    },
+    {
+      "name": "Ci Cd Bottleneck Finder",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/ci-cd-bottleneck-finder.md"
+    },
+    {
+      "name": "Story Point Calibration Bot",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/story-point-calibration-bot.md"
+    },
+    {
+      "name": "Compliance Drift Detector",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/compliance-drift-detector.md"
+    },
+    {
+      "name": "A B Test Significance Calculator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/a-b-test-significance-calculator.md"
+    },
+    {
+      "name": "Sprint Spillover Forecaster",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/sprint-spillover-forecaster.md"
+    },
+    {
+      "name": "Developer Happiness Surveyor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/developer-happiness-surveyor.md"
+    },
+    {
+      "name": "Alert Threshold Optimizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/alert-threshold-optimizer.md"
+    },
+    {
+      "name": "Capacity Limit Forecaster",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/capacity-limit-forecaster.md"
+    },
+    {
+      "name": "Context Switch Monitor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/context-switch-monitor.md"
+    },
+    {
+      "name": "Churn Correlation Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/churn-correlation-analyzer.md"
+    },
+    {
+      "name": "Data Privacy Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/data-privacy-auditor.md"
+    },
+    {
+      "name": "Spot Instance Advisor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/spot-instance-advisor.md"
+    },
+    {
+      "name": "Glossary Term Enforcer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/glossary-term-enforcer.md"
+    },
+    {
+      "name": "Interview Load Balancer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/interview-load-balancer.md"
+    },
+    {
+      "name": "Architecture Decision Record Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/architecture-decision-record-generator.md"
+    },
+    {
+      "name": "Onboarding Buddy Matcher",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/onboarding-buddy-matcher.md"
+    },
+    {
+      "name": "Iam Privilege Downgrader",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/iam-privilege-downgrader.md"
+    },
+    {
+      "name": "Error Message Polisher",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/error-message-polisher.md"
+    },
+    {
+      "name": "Auto Triage Agent",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/auto-triage-agent.md"
+    },
+    {
+      "name": "Incident Timeline Extractor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/incident-timeline-extractor.md"
+    },
+    {
+      "name": "Mttr Trend Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/mttr-trend-analyzer.md"
+    },
+    {
+      "name": "Ci Pipeline Cost Estimator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/ci-pipeline-cost-estimator.md"
+    },
+    {
+      "name": "Zombie Service Detector",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/zombie-service-detector.md"
+    },
+    {
+      "name": "Feature Request Clusterer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/feature-request-clusterer.md"
+    },
+    {
+      "name": "Tech Debt Quantifier",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/tech-debt-quantifier.md"
+    },
+    {
+      "name": "Cross Repo Contract Monitor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/cross-repo-contract-monitor.md"
+    },
+    {
+      "name": "Sprint Retro Summarizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/sprint-retro-summarizer.md"
+    },
+    {
+      "name": "Threat Model Assistant",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/threat-model-assistant.md"
+    },
+    {
+      "name": "Kudos Aggregator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/kudos-aggregator.md"
+    },
+    {
+      "name": "On Call Scheduler Bot",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/on-call-scheduler-bot.md"
+    },
+    {
+      "name": "S3 Bucket Exposure Alerter",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/s3-bucket-exposure-alerter.md"
+    },
+    {
+      "name": "Sprint Goal Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/sprint-goal-generator.md"
+    },
+    {
+      "name": "Promotion Packet Assistant",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/promotion-packet-assistant.md"
+    },
+    {
+      "name": "Pair Programming Matcher",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/pair-programming-matcher.md"
+    },
+    {
+      "name": "Root Cause Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/root-cause-analyzer.md"
+    },
+    {
+      "name": "Tribal Knowledge Extractor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/tribal-knowledge-extractor.md"
+    },
+    {
+      "name": "Standup Blocker Summarizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/standup-blocker-summarizer.md"
+    },
+    {
+      "name": "Accessibility Compliance Bot",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/accessibility-compliance-bot.md"
+    },
+    {
+      "name": "Export Control Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/export-control-auditor.md"
+    },
+    {
+      "name": "Contractor Billing Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/contractor-billing-auditor.md"
+    },
+    {
+      "name": "Epic Dependency Grapher",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/epic-dependency-grapher.md"
+    },
+    {
+      "name": "Multi Cloud Cost Comparator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/multi-cloud-cost-comparator.md"
+    },
+    {
+      "name": "Qa Test Gap Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/qa-test-gap-analyzer.md"
+    },
+    {
+      "name": "Pto Bottleneck Predictor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/pto-bottleneck-predictor.md"
+    },
+    {
+      "name": "Release Confidence Scorer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/release-confidence-scorer.md"
+    },
+    {
+      "name": "Kubernetes Resource Rightsizer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/kubernetes-resource-rightsizer.md"
+    },
+    {
+      "name": "Postmortem Action Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/postmortem-action-tracker.md"
+    },
+    {
+      "name": "Team Topology Mapper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/team-topology-mapper.md"
+    },
+    {
+      "name": "Code To Doc Drift Detector",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/code-to-doc-drift-detector.md"
+    },
+    {
+      "name": "Ssrf Vulnerability Scanner",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/ssrf-vulnerability-scanner.md"
+    },
+    {
+      "name": "Okr Alignment Checker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/okr-alignment-checker.md"
+    },
+    {
+      "name": "Infrastructure Roi Calculator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/infrastructure-roi-calculator.md"
+    },
+    {
+      "name": "On Call Compensation Calculator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/on-call-compensation-calculator.md"
+    },
+    {
+      "name": "Onboarding Checklist Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/onboarding-checklist-generator.md"
+    },
+    {
+      "name": "Velocity Burnout Predictor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/velocity-burnout-predictor.md"
+    },
+    {
+      "name": "Backlog Staleness Purger",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/backlog-staleness-purger.md"
+    },
+    {
+      "name": "Third Party Api Downtime Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/third-party-api-downtime-tracker.md"
+    },
+    {
+      "name": "Release Notes Intelligence",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/release-notes-intelligence.md"
+    },
+    {
+      "name": "Go To Market Sync",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/go-to-market-sync.md"
+    },
+    {
+      "name": "Prd Completeness Scorer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/prd-completeness-scorer.md"
+    },
+    {
+      "name": "Feature Flag Manager",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/feature-flag-manager.md"
+    },
+    {
+      "name": "Capex Opex Classifier",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/capex-opex-classifier.md"
+    },
+    {
+      "name": "Resource Allocation Matrix",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/resource-allocation-matrix.md"
+    },
+    {
+      "name": "Compliance Audit Generator",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/compliance-audit-generator.md"
+    },
+    {
+      "name": "Architecture Diagram Updater",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/architecture-diagram-updater.md"
+    },
+    {
+      "name": "Bug Bounce Analyzer",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/bug-bounce-analyzer.md"
+    },
+    {
+      "name": "Idle Load Balancer Sweeper",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/idle-load-balancer-sweeper.md"
+    },
+    {
+      "name": "Capacity Vs Allocation Tracker",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/capacity-vs-allocation-tracker.md"
+    },
+    {
+      "name": "Api Rate Limit Auditor",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/api-rate-limit-auditor.md"
+    },
+    {
+      "name": "Toil Quantifier",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/toil-quantifier.md"
+    },
+    {
+      "name": "Runbook Staleness Detector",
+      "description": "## \ud83c\udfad 1. Agent Persona",
+      "tier": 1,
+      "type": "Markdown Prompt",
+      "path": "claude-native-skills/tpms/runbook-staleness-detector.md"
+    },
+    {
+      "name": "Interview Load Balancer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Interview Load Balancer** skill, an MCP server designed to Ensures no engineer does more than 3 interviews per week.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/interview-load-balancer"
+    },
+    {
+      "name": "Tpm Portfolio Summarizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Tpm Portfolio Summarizer** skill, an MCP server designed to Rolls up status across all 100 skills into a master executive dashboard.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/tpm-portfolio-summarizer"
+    },
+    {
+      "name": "Churn Correlation Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Churn Correlation Analyzer** skill, an MCP server designed to Correlates specific bugs with user churn events.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/churn-correlation-analyzer"
+    },
+    {
+      "name": "Software License Optimizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Software License Optimizer** skill, an MCP server designed to Find unused SaaS licenses to cut costs.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/software-license-optimizer"
+    },
+    {
+      "name": "Onboarding Checklist Generator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Onboarding Checklist Generator** skill, an MCP server designed to Customize engineering onboarding plans based on team and role.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/onboarding-checklist-generator"
+    },
+    {
+      "name": "Data Retention Enforcer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Data Retention Enforcer** skill, an MCP server designed to Identifies databases lacking automated deletion scripts for GDPR.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/data-retention-enforcer"
+    },
+    {
+      "name": "Incident Timeline Extractor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Incident Timeline Extractor** skill, an MCP server designed to Build precise incident timelines from Slack and PagerDuty.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/incident-timeline-extractor"
+    },
+    {
+      "name": "Dependency Confusion Preventer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Dependency Confusion Preventer** skill, an MCP server designed to Checks package.json for internal package names vulnerable to public registry squatting.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/dependency-confusion-preventer"
+    },
+    {
+      "name": "Prd Completeness Scorer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Prd Completeness Scorer** skill, an MCP server designed to Score PRDs for missing edge cases and Non-Functional Requirements.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/prd-completeness-scorer"
+    },
+    {
+      "name": "A B Test Significance Calculator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **A B Test Significance Calculator** skill, an MCP server designed to Connects to analytics to declare if an A/B test has reached statistical significance.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/a-b-test-significance-calculator"
+    },
+    {
+      "name": "Pair Programming Matcher",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Pair Programming Matcher** skill, an MCP server designed to Suggest optimal pair programming pairs based on skill gaps.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/pair-programming-matcher"
+    },
+    {
+      "name": "Compliance Audit Generator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Compliance Audit Generator** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/compliance-audit-generator"
+    },
+    {
+      "name": "Infrastructure Roi Calculator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Infrastructure Roi Calculator** skill, an MCP server designed to Calculate the ROI of migrating services or refactoring architecture.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/infrastructure-roi-calculator"
+    },
+    {
+      "name": "Sprint Goal Generator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Sprint Goal Generator** skill, an MCP server designed to Uses AI to synthesize a 1-sentence sprint goal from the sprint backlog.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/sprint-goal-generator"
+    },
+    {
+      "name": "S3 Bucket Exposure Alerter",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **S3 Bucket Exposure Alerter** skill, an MCP server designed to Instantly escalates newly created public S3 buckets.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/s3-bucket-exposure-alerter"
+    },
+    {
+      "name": "Feature Flag Manager",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Feature Flag Manager** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/feature-flag-manager"
+    },
+    {
+      "name": "Compliance Drift Detector",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Compliance Drift Detector** skill, an MCP server designed to Check infrastructure against baseline SOC2 configs.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/compliance-drift-detector"
+    },
+    {
+      "name": "Skill Discovery Server",
+      "description": "This is a meta-MCP server built using the **AAS Core methodology**.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/skill-discovery-server"
+    },
+    {
+      "name": "Iam Privilege Downgrader",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Iam Privilege Downgrader** skill, an MCP server designed to Analyzes IAM roles and suggests downgrades based on last 90 days usage.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/iam-privilege-downgrader"
+    },
+    {
+      "name": "Onboarding Buddy Matcher",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Onboarding Buddy Matcher** skill, an MCP server designed to Matches new hires with veterans based on shared interests or timezones.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/onboarding-buddy-matcher"
+    },
+    {
+      "name": "Pto Bottleneck Predictor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Pto Bottleneck Predictor** skill, an MCP server designed to Flags if a critical system's only experts are taking PTO at the same time.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/pto-bottleneck-predictor"
+    },
+    {
+      "name": "Root Cause Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Root Cause Analyzer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/root-cause-analyzer"
+    },
+    {
+      "name": "Data Privacy Auditor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Data Privacy Auditor** skill, an MCP server designed to Scan PRs for new PII fields and flag for legal review.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/data-privacy-auditor"
+    },
+    {
+      "name": "Resource Allocation Matrix",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Resource Allocation Matrix** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/resource-allocation-matrix"
+    },
+    {
+      "name": "Architecture Diagram Updater",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Architecture Diagram Updater** skill, an MCP server designed to Regenerates Mermaid diagrams when specific repo folders change.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/architecture-diagram-updater"
+    },
+    {
+      "name": "Contractor Billing Auditor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Contractor Billing Auditor** skill, an MCP server designed to Cross-check Jira work logs with vendor invoices.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/contractor-billing-auditor"
+    },
+    {
+      "name": "Prd To System Design",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Prd To System Design** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/prd-to-system-design"
+    },
+    {
+      "name": "Deployment Frequency Tracker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Deployment Frequency Tracker** skill, an MCP server designed to Tracks deployments per day per developer.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/deployment-frequency-tracker"
+    },
+    {
+      "name": "Release Notes Intelligence",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Release Notes Intelligence** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/release-notes-intelligence"
+    },
+    {
+      "name": "Threat Model Assistant",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Threat Model Assistant** skill, an MCP server designed to Generate STRIDE threat models from architecture docs.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/threat-model-assistant"
+    },
+    {
+      "name": "Incident Postmortem Generator",
+      "description": "This MCP server automates the creation of blameless 5-Whys incident postmortems by analyzing structured event logs, summarizing the timeline, and drafting the core document.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/incident-postmortem-generator"
+    },
+    {
+      "name": "Go To Market Sync",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Go To Market Sync** skill, an MCP server designed to Generate technical briefs for Sales/Support teams.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/go-to-market-sync"
+    },
+    {
+      "name": "Third Party Api Downtime Tracker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Third Party Api Downtime Tracker** skill, an MCP server designed to Correlates internal errors with external API status pages (e.g. Stripe, Twilio).",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/third-party-api-downtime-tracker"
+    },
+    {
+      "name": "Sprint Spillover Forecaster",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Sprint Spillover Forecaster** skill, an MCP server designed to Predict which tickets will spill over based on historical patterns.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/sprint-spillover-forecaster"
+    },
+    {
+      "name": "Docker Image Bloat Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Docker Image Bloat Analyzer** skill, an MCP server designed to Analyzes Dockerfiles to suggest base image optimizations.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/docker-image-bloat-analyzer"
+    },
+    {
+      "name": "Open Source License Scanner",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Open Source License Scanner** skill, an MCP server designed to Checks repos for GPL/Copyleft licenses and flags them.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/open-source-license-scanner"
+    },
+    {
+      "name": "Export Control Auditor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Export Control Auditor** skill, an MCP server designed to Checks if code involves encryption algorithms requiring export control classification.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/export-control-auditor"
+    },
+    {
+      "name": "Live Docs Fetcher",
+      "description": "This MCP server actively prevents Claude from hallucinating APIs by scraping the live, official documentation for any framework (Next.js 15, React 19, Stripe).",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/live-docs-fetcher"
+    },
+    {
+      "name": "Velocity Burnout Predictor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Velocity Burnout Predictor** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/velocity-burnout-predictor"
+    },
+    {
+      "name": "Okr Alignment Checker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Okr Alignment Checker** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/okr-alignment-checker"
+    },
+    {
+      "name": "On Call Compensation Calculator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **On Call Compensation Calculator** skill, an MCP server designed to Calculates payout for engineers based on off-hours pages.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/on-call-compensation-calculator"
+    },
+    {
+      "name": "Pr Size Enforcer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Pr Size Enforcer** skill, an MCP server designed to Warns developers in Slack if a PR exceeds 500 lines of code.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/pr-size-enforcer"
+    },
+    {
+      "name": "Postgres Database Server",
+      "description": "This MCP server provides a strictly read-only (`SELECT`) database client, allowing Claude to query live production metrics without risking your schema.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/postgres-database-server"
+    },
+    {
+      "name": "Ci Cd Bottleneck Finder",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Ci Cd Bottleneck Finder** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/ci-cd-bottleneck-finder"
+    },
+    {
+      "name": "Team Topology Mapper",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Team Topology Mapper** skill, an MCP server designed to Analyze interactions to suggest Conway's Law optimizations.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/team-topology-mapper"
+    },
+    {
+      "name": "Developer Happiness Surveyor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Developer Happiness Surveyor** skill, an MCP server designed to Sends micro-surveys in Slack and aggregates sentiment.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/developer-happiness-surveyor"
+    },
+    {
+      "name": "Kubernetes Resource Rightsizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Kubernetes Resource Rightsizer** skill, an MCP server designed to Analyzes pod CPU/Mem usage to recommend lower limits.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/kubernetes-resource-rightsizer"
+    },
+    {
+      "name": "Spot Instance Advisor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Spot Instance Advisor** skill, an MCP server designed to Identifies workloads that can be safely moved to AWS Spot instances.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/spot-instance-advisor"
+    },
+    {
+      "name": "Architecture Decision Record Generator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Architecture Decision Record Generator** skill, an MCP server designed to Extract ADRs from technical design discussions.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/architecture-decision-record-generator"
+    },
+    {
+      "name": "Tech Debt Quantifier",
+      "description": "This MCP server helps engineering managers and TPMs translate abstract technical debt (e.g., SonarQube code smells, missing test coverage, legacy dependencies) into concrete business impact.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/tech-debt-quantifier"
+    },
+    {
+      "name": "Chaos Engineering Planner",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Chaos Engineering Planner** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/chaos-engineering-planner"
+    },
+    {
+      "name": "Monorepo Impact Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Monorepo Impact Analyzer** skill, an MCP server designed to Determines which microservices actually need to be rebuilt based on a monorepo PR.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/monorepo-impact-analyzer"
+    },
+    {
+      "name": "Capacity Limit Forecaster",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Capacity Limit Forecaster** skill, an MCP server designed to Predict when database or storage limits will be hit.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/capacity-limit-forecaster"
+    },
+    {
+      "name": "Qa Test Gap Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Qa Test Gap Analyzer** skill, an MCP server designed to Correlate PR code changes against E2E test coverage to find gaps.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/qa-test-gap-analyzer"
+    },
+    {
+      "name": "Story Point Calibration Bot",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Story Point Calibration Bot** skill, an MCP server designed to Identifies teams whose 5-point stories take wildly different times.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/story-point-calibration-bot"
+    },
+    {
+      "name": "Epic Breakdown Assistant",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Epic Breakdown Assistant** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/epic-breakdown-assistant"
+    },
+    {
+      "name": "Competitor Feature Tracker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Competitor Feature Tracker** skill, an MCP server designed to Scrapes competitor release notes and alerts PMs/TPMs.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/competitor-feature-tracker"
+    },
+    {
+      "name": "Flaky Test Quarantiner",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Flaky Test Quarantiner** skill, an MCP server designed to Identifies flaky tests and automatically skips them in CI while creating a Jira ticket.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/flaky-test-quarantiner"
+    },
+    {
+      "name": "On Call Scheduler Bot",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **On Call Scheduler Bot** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/on-call-scheduler-bot"
+    },
+    {
+      "name": "Vendor Contract Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Vendor Contract Analyzer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/vendor-contract-analyzer"
+    },
+    {
+      "name": "Glossary Term Enforcer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Glossary Term Enforcer** skill, an MCP server designed to Checks PRDs for inconsistent terminology.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/glossary-term-enforcer"
+    },
+    {
+      "name": "Postmortem Action Tracker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Postmortem Action Tracker** skill, an MCP server designed to Ensure postmortem action items are prioritized in upcoming sprints.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/postmortem-action-tracker"
+    },
+    {
+      "name": "Promotion Packet Assistant",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Promotion Packet Assistant** skill, an MCP server designed to Gathers an engineer's PRs, design docs, and incident resolutions for promo review.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/promotion-packet-assistant"
+    },
+    {
+      "name": "Kudos Aggregator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Kudos Aggregator** skill, an MCP server designed to Collects 'thank yous' across Slack channels into a weekly digest.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/kudos-aggregator"
+    },
+    {
+      "name": "Ci Pipeline Cost Estimator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Ci Pipeline Cost Estimator** skill, an MCP server designed to Calculates the exact AWS/GCP cost of running a CI pipeline per PR.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/ci-pipeline-cost-estimator"
+    },
+    {
+      "name": "Deprecated Api Tracker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Deprecated Api Tracker** skill, an MCP server designed to Find usages of sunset APIs and create migration tickets.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/deprecated-api-tracker"
+    },
+    {
+      "name": "Capacity Vs Allocation Tracker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Capacity Vs Allocation Tracker** skill, an MCP server designed to Compares planned sprint capacity vs actual hours logged.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/capacity-vs-allocation-tracker"
+    },
+    {
+      "name": "Idle Load Balancer Sweeper",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Idle Load Balancer Sweeper** skill, an MCP server designed to Finds and removes unused ALBs/ELBs.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/idle-load-balancer-sweeper"
+    },
+    {
+      "name": "Sprint Spillover Analyzer",
+      "description": "This MCP server analyzes Jira tickets (or generic ticket JSON) to identify items that have rolled over multiple sprints, categorizing the root causes for spillover to help teams improve their velocity predictability.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/sprint-spillover-analyzer"
+    },
+    {
+      "name": "Epic Dependency Grapher",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Epic Dependency Grapher** skill, an MCP server designed to Visualizes blocking dependencies across epics in a Mermaid diagram.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/epic-dependency-grapher"
+    },
+    {
+      "name": "Stakeholder Update Generator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Stakeholder Update Generator** skill, an MCP server designed to Draft status updates tailored to specific C-suite personas.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/stakeholder-update-generator"
+    },
+    {
+      "name": "Secrets In Code Remediator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Secrets In Code Remediator** skill, an MCP server designed to Finds leaked secrets, revokes them via API, and creates PRs to remove them.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/secrets-in-code-remediator"
+    },
+    {
+      "name": "Engineering Kpi Dashboarder",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Engineering Kpi Dashboarder** skill, an MCP server designed to Aggregate DORA metrics (Deployment Frequency, Lead Time, MTTR).",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/engineering-kpi-dashboarder"
+    },
+    {
+      "name": "Ssrf Vulnerability Scanner",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Ssrf Vulnerability Scanner** skill, an MCP server designed to Scans code for URL parsing patterns susceptible to SSRF.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/ssrf-vulnerability-scanner"
+    },
+    {
+      "name": "Code To Doc Drift Detector",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Code To Doc Drift Detector** skill, an MCP server designed to Compares READMEs against current code behavior and flags drift.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/code-to-doc-drift-detector"
+    },
+    {
+      "name": "Feature Adoption Tracker",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Feature Adoption Tracker** skill, an MCP server designed to Track post-launch feature usage in Mixpanel.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/feature-adoption-tracker"
+    },
+    {
+      "name": "Dependency Blocker Escalator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Dependency Blocker Escalator** skill, an MCP server designed to Escalate aging cross-squad blockers automatically.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/dependency-blocker-escalator"
+    },
+    {
+      "name": "Nps Feedback Categorizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Nps Feedback Categorizer** skill, an MCP server designed to Uses NLP to categorize Net Promoter Score text feedback.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/nps-feedback-categorizer"
+    },
+    {
+      "name": "Vendor Security Questionnaire Bot",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Vendor Security Questionnaire Bot** skill, an MCP server designed to Auto-drafts answers to vendor security questionnaires based on past responses.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/vendor-security-questionnaire-bot"
+    },
+    {
+      "name": "Release Confidence Scorer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Release Confidence Scorer** skill, an MCP server designed to Score a release candidate based on test passes and open P0s.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/release-confidence-scorer"
+    },
+    {
+      "name": "Bug Bounce Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Bug Bounce Analyzer** skill, an MCP server designed to Identify tickets that are frequently reopened to find testing gaps.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/bug-bounce-analyzer"
+    },
+    {
+      "name": "Cloud Cost Optimizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Cloud Cost Optimizer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/cloud-cost-optimizer"
+    },
+    {
+      "name": "Multi Cloud Cost Comparator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Multi Cloud Cost Comparator** skill, an MCP server designed to Compares AWS vs GCP pricing for current workloads.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/multi-cloud-cost-comparator"
+    },
+    {
+      "name": "Canary Deployment Evaluator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Canary Deployment Evaluator** skill, an MCP server designed to Automatically analyzes canary metrics and recommends rollback or full rollout.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/canary-deployment-evaluator"
+    },
+    {
+      "name": "Mttr Trend Analyzer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Mttr Trend Analyzer** skill, an MCP server designed to Tracks Mean Time To Recovery across different services.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/mttr-trend-analyzer"
+    },
+    {
+      "name": "Security Remediation Bot",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Security Remediation Bot** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/security-remediation-bot"
+    },
+    {
+      "name": "Auto Triage Agent",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Auto Triage Agent** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/auto-triage-agent"
+    },
+    {
+      "name": "Alert Threshold Optimizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Alert Threshold Optimizer** skill, an MCP server designed to Suggest adjustments to noisy Datadog alerts.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/alert-threshold-optimizer"
+    },
+    {
+      "name": "Sprint Retro Summarizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Sprint Retro Summarizer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/sprint-retro-summarizer"
+    },
+    {
+      "name": "Accessibility Compliance Bot",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Accessibility Compliance Bot** skill, an MCP server designed to Connects to Lighthouse/axe to generate WCAG compliance tickets.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/accessibility-compliance-bot"
+    },
+    {
+      "name": "Tribal Knowledge Extractor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Tribal Knowledge Extractor** skill, an MCP server designed to Analyzes Slack threads to generate Q&A pairs for the internal wiki.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/tribal-knowledge-extractor"
+    },
+    {
+      "name": "Api Rate Limit Auditor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Api Rate Limit Auditor** skill, an MCP server designed to Ensures all public APIs have appropriate rate limiting configured.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/api-rate-limit-auditor"
+    },
+    {
+      "name": "Toil Quantifier",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Toil Quantifier** skill, an MCP server designed to Measure engineering time spent on manual ops/support tasks.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/toil-quantifier"
+    },
+    {
+      "name": "Runbook Staleness Detector",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Runbook Staleness Detector** skill, an MCP server designed to Flags runbooks in Confluence that haven't been updated in 6 months.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/runbook-staleness-detector"
+    },
+    {
+      "name": "Feature Request Clusterer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Feature Request Clusterer** skill, an MCP server designed to Groups similar Zendesk/Intercom tickets into a single feature request.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/feature-request-clusterer"
+    },
+    {
+      "name": "Slo Violation Detector",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Slo Violation Detector** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/slo-violation-detector"
+    },
+    {
+      "name": "Meeting Cost Calculator",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Meeting Cost Calculator** skill, an MCP server designed to Calculate the dollar cost of engineering meetings to discourage over-inviting.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/meeting-cost-calculator"
+    },
+    {
+      "name": "Playwright Browser Server",
+      "description": "This MCP server allows Claude to spin up headless Chromium browsers, navigate to URLs, extract DOM data, and take screenshots (`base64`) to visually debug UI issues.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/playwright-browser-server"
+    },
+    {
+      "name": "Backlog Staleness Purger",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Backlog Staleness Purger** skill, an MCP server designed to Auto-closes Jira tickets older than 1 year with no updates.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/backlog-staleness-purger"
+    },
+    {
+      "name": "Zombie Service Detector",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Zombie Service Detector** skill, an MCP server designed to Finds microservices with 0 traffic in the last 30 days.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/zombie-service-detector"
+    },
+    {
+      "name": "Standup Blocker Summarizer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Standup Blocker Summarizer** skill, an MCP server designed to Extract blockers from daily async standups in Slack.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/standup-blocker-summarizer"
+    },
+    {
+      "name": "Error Message Polisher",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Error Message Polisher** skill, an MCP server designed to Scans codebase for unhelpful error messages and suggests improvements.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/error-message-polisher"
+    },
+    {
+      "name": "Database Migration Reviewer",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Database Migration Reviewer** skill, an MCP server designed to Reviews SQL migrations for table locks or destructive operations.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/database-migration-reviewer"
+    },
+    {
+      "name": "Capex Opex Classifier",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Capex Opex Classifier** skill, an MCP server designed to Tag engineering tasks for accounting capitalization (CapEx vs OpEx).",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/capex-opex-classifier"
+    },
+    {
+      "name": "Cross Repo Contract Monitor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Cross Repo Contract Monitor** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/cross-repo-contract-monitor"
+    },
+    {
+      "name": "Context Switch Monitor",
+      "description": "## \ud83d\udcd6 Overview This directory contains the **Context Switch Monitor** skill, an MCP server designed to Alert if engineers are assigned to too many distinct epics concurrently.",
+      "tier": 2,
+      "type": "MCP / Python",
+      "path": "skills/context-switch-monitor"
+    },
+    {
+      "name": "Santanu Tdd Super Sprint",
+      "description": "An advanced Claude Code terminal harness.",
+      "tier": 3,
+      "type": "CLI Harness",
+      "path": "claude-code-terminal-harnesses/Santanu-TDD-Super-Sprint.md"
+    },
+    {
+      "name": "Santanu Codebase Refactor Engine",
+      "description": "An advanced Claude Code terminal harness.",
+      "tier": 3,
+      "type": "CLI Harness",
+      "path": "claude-code-terminal-harnesses/Santanu-Codebase-Refactor-Engine.md"
+    },
+    {
+      "name": "Santanu Skill Creator Engine",
+      "description": "An advanced Claude Code terminal harness.",
+      "tier": 3,
+      "type": "CLI Harness",
+      "path": "claude-code-terminal-harnesses/Santanu-Skill-Creator-Engine.md"
+    },
+    {
+      "name": "Santanu Sev1 Incident Commander",
+      "description": "An advanced Claude Code terminal harness.",
+      "tier": 3,
+      "type": "CLI Harness",
+      "path": "claude-code-terminal-harnesses/Santanu-Sev1-Incident-Commander.md"
+    },
+    {
+      "name": "Skill Discovery Server",
+      "description": "An MCP Meta-Server that acts as a router to dynamically discover and load tools.",
+      "tier": 4,
+      "type": "MCP Meta-Server",
+      "path": "skills/skill-discovery-server"
+    }
+  ]
+}

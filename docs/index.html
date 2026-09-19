@@ -175,7 +175,7 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Tier 1 -->
-                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group">
+                <div onclick="setTier(1)" class="glass-card rounded-2xl p-8 relative overflow-hidden group cursor-pointer">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-blue-500/20 transition-all"></div>
                     <div class="text-4xl mb-4">🌟</div>
                     <div class="text-xs font-bold text-blue-400 mb-2 uppercase tracking-wider">Tier 1</div>
@@ -184,7 +184,7 @@
                 </div>
 
                 <!-- Tier 2 -->
-                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group border-purple-500/30 shadow-[0_0_20px_rgba(139,92,246,0.1)]">
+                <div onclick="setTier(2)" class="glass-card rounded-2xl p-8 relative overflow-hidden group border-purple-500/30 shadow-[0_0_20px_rgba(139,92,246,0.1)] cursor-pointer">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-purple-500/20 transition-all"></div>
                     <div class="text-4xl mb-4">🔌</div>
                     <div class="text-xs font-bold text-purple-400 mb-2 uppercase tracking-wider">Tier 2</div>
@@ -193,7 +193,7 @@
                 </div>
 
                 <!-- Tier 3 -->
-                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group">
+                <div onclick="setTier(3)" class="glass-card rounded-2xl p-8 relative overflow-hidden group cursor-pointer">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-green-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-green-500/20 transition-all"></div>
                     <div class="text-4xl mb-4">⚙️</div>
                     <div class="text-xs font-bold text-green-400 mb-2 uppercase tracking-wider">Tier 3</div>
@@ -202,7 +202,7 @@
                 </div>
                 
                 <!-- Tier 4 -->
-                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group lg:col-span-1 md:col-span-2">
+                <div onclick="setTier(4)" class="glass-card rounded-2xl p-8 relative overflow-hidden group lg:col-span-1 md:col-span-2 cursor-pointer">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-pink-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-pink-500/20 transition-all"></div>
                     <div class="text-4xl mb-4">🤖</div>
                     <div class="text-xs font-bold text-pink-400 mb-2 uppercase tracking-wider">Tier 4</div>
@@ -211,7 +211,7 @@
                 </div>
 
                 <!-- Tier 5 -->
-                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group lg:col-span-2 md:col-span-2">
+                <div onclick="setTier(5)" class="glass-card rounded-2xl p-8 relative overflow-hidden group lg:col-span-2 md:col-span-2 cursor-pointer">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-orange-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-orange-500/20 transition-all"></div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="text-4xl">🐝</div>
@@ -227,7 +227,7 @@
         <!-- Skills Section -->
         <div id="skills" class="pt-10 scroll-mt-24">
             <div class="glass-panel rounded-2xl p-2 flex flex-col md:flex-row md:items-center justify-between mb-10 sticky top-20 z-40">
-                <h2 class="text-2xl font-bold px-4 py-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-white">Tier 2 Registry</h2>
+                <h2 id="registryTitle" class="text-2xl font-bold px-4 py-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-white cursor-pointer hover:text-purple-300 transition-colors" onclick="setTier(0)" title="Click to show all tiers">Tier 2 Registry</h2>
                 <div class="relative w-full md:w-96">
                     <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                         <svg class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -260,19 +260,45 @@
 
     <script>
         let allSkills = [];
+        let currentTier = 0; // 0 means all
 
-        // Fetch the skills registry
-        fetch('skills_registry.json')
+        // Fetch the full skills registry
+        fetch('full_registry.json')
             .then(res => res.json())
             .then(data => {
                 allSkills = data.skills;
                 document.getElementById('loading').classList.add('hidden');
-                renderSkills(allSkills);
+                setTier(2); // Default to showing Tier 2
             })
             .catch(err => {
                 document.getElementById('loading').innerHTML = "Failed to load registry. Ensure you are running on a server.";
                 console.error(err);
             });
+
+        function setTier(tierNumber) {
+            currentTier = tierNumber;
+            const titleEl = document.getElementById('registryTitle');
+            const searchInput = document.getElementById('searchInput');
+            
+            if (tierNumber === 0) {
+                titleEl.textContent = "All Skills Registry";
+                searchInput.placeholder = "Search 500+ skills across all tiers...";
+            } else {
+                titleEl.textContent = "Tier " + tierNumber + " Registry";
+                const tierCount = allSkills.filter(s => s.tier === tierNumber).length;
+                searchInput.placeholder = "Search " + tierCount + " skills in Tier " + tierNumber + "...";
+            }
+            
+            // Clear search when switching tiers
+            searchInput.value = '';
+            
+            // Re-render
+            const filtered = tierNumber === 0 ? allSkills : allSkills.filter(s => s.tier === tierNumber);
+            renderSkills(filtered);
+            
+            // Scroll to registry
+            document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+        }
 
         // Render function
         function renderSkills(skills) {
@@ -289,21 +315,21 @@
             noResults.classList.add('hidden');
             
             skills.forEach(skill => {
-                const desc = skill.description ? skill.description : "An MCP server for technical project management.";
+                const desc = skill.description ? skill.description : "An AI skill for engineering leaders.";
                 const shortDesc = desc.length > 110 ? desc.substring(0, 110) + "..." : desc;
                 
                 const html = `
-                    <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/${skill.name}" target="_blank" class="block h-full">
+                    <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/${skill.path}" target="_blank" class="block h-full">
                         <div class="glass-card p-6 rounded-2xl h-full flex flex-col relative overflow-hidden group">
                             <div class="absolute -right-6 -top-6 w-24 h-24 bg-purple-500/5 rounded-full blur-xl group-hover:bg-purple-500/20 transition-all"></div>
                             
                             <h3 class="font-bold text-lg mb-3 text-white truncate group-hover:text-purple-300 transition-colors" title="${skill.name}">
-                                ${skill.name.replace(/-/g, ' ')}
+                                ${skill.name}
                             </h3>
                             <p class="text-sm text-gray-400 flex-grow font-light leading-relaxed">${shortDesc}</p>
                             
                             <div class="mt-6 pt-4 border-t border-white/5 flex justify-between items-center text-xs">
-                                <span class="px-2 py-1 rounded bg-black/50 text-gray-500 border border-white/5 font-mono">MCP / Python</span>
+                                <span class="px-2 py-1 rounded bg-black/50 text-gray-500 border border-white/5 font-mono">${skill.type}</span>
                                 <span class="text-purple-400 opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-2 group-hover:translate-x-0">View Source &rarr;</span>
                             </div>
                         </div>
@@ -316,7 +342,9 @@
         // Search functionality
         document.getElementById('searchInput').addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase();
-            const filtered = allSkills.filter(skill => 
+            let filtered = currentTier === 0 ? allSkills : allSkills.filter(s => s.tier === currentTier);
+            
+            filtered = filtered.filter(skill => 
                 skill.name.toLowerCase().includes(query) || 
                 (skill.description && skill.description.toLowerCase().includes(query))
             );
