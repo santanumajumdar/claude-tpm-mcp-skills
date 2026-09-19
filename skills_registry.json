@@ -1,0 +1,421 @@
+{
+  "total_skills": 104,
+  "skills": [
+    {
+      "name": "a-b-test-significance-calculator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **A B Test Significance Calculator** skill, an MCP server designed to Connects to analytics to declare if an A/B test has reached statistical significance."
+    },
+    {
+      "name": "accessibility-compliance-bot",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Accessibility Compliance Bot** skill, an MCP server designed to Connects to Lighthouse/axe to generate WCAG compliance tickets."
+    },
+    {
+      "name": "alert-threshold-optimizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Alert Threshold Optimizer** skill, an MCP server designed to Suggest adjustments to noisy Datadog alerts."
+    },
+    {
+      "name": "api-rate-limit-auditor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Api Rate Limit Auditor** skill, an MCP server designed to Ensures all public APIs have appropriate rate limiting configured."
+    },
+    {
+      "name": "architecture-decision-record-generator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Architecture Decision Record Generator** skill, an MCP server designed to Extract ADRs from technical design discussions."
+    },
+    {
+      "name": "architecture-diagram-updater",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Architecture Diagram Updater** skill, an MCP server designed to Regenerates Mermaid diagrams when specific repo folders change."
+    },
+    {
+      "name": "auto-triage-agent",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Auto Triage Agent** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "backlog-staleness-purger",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Backlog Staleness Purger** skill, an MCP server designed to Auto-closes Jira tickets older than 1 year with no updates."
+    },
+    {
+      "name": "bug-bounce-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Bug Bounce Analyzer** skill, an MCP server designed to Identify tickets that are frequently reopened to find testing gaps."
+    },
+    {
+      "name": "canary-deployment-evaluator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Canary Deployment Evaluator** skill, an MCP server designed to Automatically analyzes canary metrics and recommends rollback or full rollout."
+    },
+    {
+      "name": "capacity-limit-forecaster",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Capacity Limit Forecaster** skill, an MCP server designed to Predict when database or storage limits will be hit."
+    },
+    {
+      "name": "capacity-vs-allocation-tracker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Capacity Vs Allocation Tracker** skill, an MCP server designed to Compares planned sprint capacity vs actual hours logged."
+    },
+    {
+      "name": "capex-opex-classifier",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Capex Opex Classifier** skill, an MCP server designed to Tag engineering tasks for accounting capitalization (CapEx vs OpEx)."
+    },
+    {
+      "name": "chaos-engineering-planner",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Chaos Engineering Planner** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "churn-correlation-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Churn Correlation Analyzer** skill, an MCP server designed to Correlates specific bugs with user churn events."
+    },
+    {
+      "name": "ci-cd-bottleneck-finder",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Ci Cd Bottleneck Finder** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "ci-pipeline-cost-estimator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Ci Pipeline Cost Estimator** skill, an MCP server designed to Calculates the exact AWS/GCP cost of running a CI pipeline per PR."
+    },
+    {
+      "name": "cloud-cost-optimizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Cloud Cost Optimizer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "code-to-doc-drift-detector",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Code To Doc Drift Detector** skill, an MCP server designed to Compares READMEs against current code behavior and flags drift."
+    },
+    {
+      "name": "competitor-feature-tracker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Competitor Feature Tracker** skill, an MCP server designed to Scrapes competitor release notes and alerts PMs/TPMs."
+    },
+    {
+      "name": "compliance-audit-generator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Compliance Audit Generator** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "compliance-drift-detector",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Compliance Drift Detector** skill, an MCP server designed to Check infrastructure against baseline SOC2 configs."
+    },
+    {
+      "name": "context-switch-monitor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Context Switch Monitor** skill, an MCP server designed to Alert if engineers are assigned to too many distinct epics concurrently."
+    },
+    {
+      "name": "contractor-billing-auditor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Contractor Billing Auditor** skill, an MCP server designed to Cross-check Jira work logs with vendor invoices."
+    },
+    {
+      "name": "cross-repo-contract-monitor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Cross Repo Contract Monitor** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "data-privacy-auditor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Data Privacy Auditor** skill, an MCP server designed to Scan PRs for new PII fields and flag for legal review."
+    },
+    {
+      "name": "data-retention-enforcer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Data Retention Enforcer** skill, an MCP server designed to Identifies databases lacking automated deletion scripts for GDPR."
+    },
+    {
+      "name": "database-migration-reviewer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Database Migration Reviewer** skill, an MCP server designed to Reviews SQL migrations for table locks or destructive operations."
+    },
+    {
+      "name": "dependency-blocker-escalator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Dependency Blocker Escalator** skill, an MCP server designed to Escalate aging cross-squad blockers automatically."
+    },
+    {
+      "name": "dependency-confusion-preventer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Dependency Confusion Preventer** skill, an MCP server designed to Checks package.json for internal package names vulnerable to public registry squatting."
+    },
+    {
+      "name": "deployment-frequency-tracker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Deployment Frequency Tracker** skill, an MCP server designed to Tracks deployments per day per developer."
+    },
+    {
+      "name": "deprecated-api-tracker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Deprecated Api Tracker** skill, an MCP server designed to Find usages of sunset APIs and create migration tickets."
+    },
+    {
+      "name": "developer-happiness-surveyor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Developer Happiness Surveyor** skill, an MCP server designed to Sends micro-surveys in Slack and aggregates sentiment."
+    },
+    {
+      "name": "docker-image-bloat-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Docker Image Bloat Analyzer** skill, an MCP server designed to Analyzes Dockerfiles to suggest base image optimizations."
+    },
+    {
+      "name": "engineering-kpi-dashboarder",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Engineering Kpi Dashboarder** skill, an MCP server designed to Aggregate DORA metrics (Deployment Frequency, Lead Time, MTTR)."
+    },
+    {
+      "name": "epic-breakdown-assistant",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Epic Breakdown Assistant** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "epic-dependency-grapher",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Epic Dependency Grapher** skill, an MCP server designed to Visualizes blocking dependencies across epics in a Mermaid diagram."
+    },
+    {
+      "name": "error-message-polisher",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Error Message Polisher** skill, an MCP server designed to Scans codebase for unhelpful error messages and suggests improvements."
+    },
+    {
+      "name": "export-control-auditor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Export Control Auditor** skill, an MCP server designed to Checks if code involves encryption algorithms requiring export control classification."
+    },
+    {
+      "name": "feature-adoption-tracker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Feature Adoption Tracker** skill, an MCP server designed to Track post-launch feature usage in Mixpanel."
+    },
+    {
+      "name": "feature-flag-manager",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Feature Flag Manager** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "feature-request-clusterer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Feature Request Clusterer** skill, an MCP server designed to Groups similar Zendesk/Intercom tickets into a single feature request."
+    },
+    {
+      "name": "flaky-test-quarantiner",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Flaky Test Quarantiner** skill, an MCP server designed to Identifies flaky tests and automatically skips them in CI while creating a Jira ticket."
+    },
+    {
+      "name": "glossary-term-enforcer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Glossary Term Enforcer** skill, an MCP server designed to Checks PRDs for inconsistent terminology."
+    },
+    {
+      "name": "go-to-market-sync",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Go To Market Sync** skill, an MCP server designed to Generate technical briefs for Sales/Support teams."
+    },
+    {
+      "name": "iam-privilege-downgrader",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Iam Privilege Downgrader** skill, an MCP server designed to Analyzes IAM roles and suggests downgrades based on last 90 days usage."
+    },
+    {
+      "name": "idle-load-balancer-sweeper",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Idle Load Balancer Sweeper** skill, an MCP server designed to Finds and removes unused ALBs/ELBs."
+    },
+    {
+      "name": "incident-timeline-extractor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Incident Timeline Extractor** skill, an MCP server designed to Build precise incident timelines from Slack and PagerDuty."
+    },
+    {
+      "name": "infrastructure-roi-calculator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Infrastructure Roi Calculator** skill, an MCP server designed to Calculate the ROI of migrating services or refactoring architecture."
+    },
+    {
+      "name": "interview-load-balancer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Interview Load Balancer** skill, an MCP server designed to Ensures no engineer does more than 3 interviews per week."
+    },
+    {
+      "name": "kubernetes-resource-rightsizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Kubernetes Resource Rightsizer** skill, an MCP server designed to Analyzes pod CPU/Mem usage to recommend lower limits."
+    },
+    {
+      "name": "kudos-aggregator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Kudos Aggregator** skill, an MCP server designed to Collects 'thank yous' across Slack channels into a weekly digest."
+    },
+    {
+      "name": "live-docs-fetcher",
+      "description": "This MCP server actively prevents Claude from hallucinating APIs by scraping the live, official documentation for any framework (Next.js 15, React 19, Stripe)."
+    },
+    {
+      "name": "meeting-cost-calculator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Meeting Cost Calculator** skill, an MCP server designed to Calculate the dollar cost of engineering meetings to discourage over-inviting."
+    },
+    {
+      "name": "monorepo-impact-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Monorepo Impact Analyzer** skill, an MCP server designed to Determines which microservices actually need to be rebuilt based on a monorepo PR."
+    },
+    {
+      "name": "mttr-trend-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Mttr Trend Analyzer** skill, an MCP server designed to Tracks Mean Time To Recovery across different services."
+    },
+    {
+      "name": "multi-cloud-cost-comparator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Multi Cloud Cost Comparator** skill, an MCP server designed to Compares AWS vs GCP pricing for current workloads."
+    },
+    {
+      "name": "nps-feedback-categorizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Nps Feedback Categorizer** skill, an MCP server designed to Uses NLP to categorize Net Promoter Score text feedback."
+    },
+    {
+      "name": "okr-alignment-checker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Okr Alignment Checker** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "on-call-compensation-calculator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **On Call Compensation Calculator** skill, an MCP server designed to Calculates payout for engineers based on off-hours pages."
+    },
+    {
+      "name": "on-call-scheduler-bot",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **On Call Scheduler Bot** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "onboarding-buddy-matcher",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Onboarding Buddy Matcher** skill, an MCP server designed to Matches new hires with veterans based on shared interests or timezones."
+    },
+    {
+      "name": "onboarding-checklist-generator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Onboarding Checklist Generator** skill, an MCP server designed to Customize engineering onboarding plans based on team and role."
+    },
+    {
+      "name": "open-source-license-scanner",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Open Source License Scanner** skill, an MCP server designed to Checks repos for GPL/Copyleft licenses and flags them."
+    },
+    {
+      "name": "pair-programming-matcher",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Pair Programming Matcher** skill, an MCP server designed to Suggest optimal pair programming pairs based on skill gaps."
+    },
+    {
+      "name": "playwright-browser-server",
+      "description": "This MCP server allows Claude to spin up headless Chromium browsers, navigate to URLs, extract DOM data, and take screenshots (`base64`) to visually debug UI issues."
+    },
+    {
+      "name": "postgres-database-server",
+      "description": "This MCP server provides a strictly read-only (`SELECT`) database client, allowing Claude to query live production metrics without risking your schema."
+    },
+    {
+      "name": "postmortem-action-tracker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Postmortem Action Tracker** skill, an MCP server designed to Ensure postmortem action items are prioritized in upcoming sprints."
+    },
+    {
+      "name": "pr-size-enforcer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Pr Size Enforcer** skill, an MCP server designed to Warns developers in Slack if a PR exceeds 500 lines of code."
+    },
+    {
+      "name": "prd-completeness-scorer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Prd Completeness Scorer** skill, an MCP server designed to Score PRDs for missing edge cases and Non-Functional Requirements."
+    },
+    {
+      "name": "prd-to-system-design",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Prd To System Design** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "promotion-packet-assistant",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Promotion Packet Assistant** skill, an MCP server designed to Gathers an engineer's PRs, design docs, and incident resolutions for promo review."
+    },
+    {
+      "name": "pto-bottleneck-predictor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Pto Bottleneck Predictor** skill, an MCP server designed to Flags if a critical system's only experts are taking PTO at the same time."
+    },
+    {
+      "name": "qa-test-gap-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Qa Test Gap Analyzer** skill, an MCP server designed to Correlate PR code changes against E2E test coverage to find gaps."
+    },
+    {
+      "name": "release-confidence-scorer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Release Confidence Scorer** skill, an MCP server designed to Score a release candidate based on test passes and open P0s."
+    },
+    {
+      "name": "release-notes-intelligence",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Release Notes Intelligence** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "resource-allocation-matrix",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Resource Allocation Matrix** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "root-cause-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Root Cause Analyzer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "runbook-staleness-detector",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Runbook Staleness Detector** skill, an MCP server designed to Flags runbooks in Confluence that haven't been updated in 6 months."
+    },
+    {
+      "name": "s3-bucket-exposure-alerter",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **S3 Bucket Exposure Alerter** skill, an MCP server designed to Instantly escalates newly created public S3 buckets."
+    },
+    {
+      "name": "secrets-in-code-remediator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Secrets In Code Remediator** skill, an MCP server designed to Finds leaked secrets, revokes them via API, and creates PRs to remove them."
+    },
+    {
+      "name": "security-remediation-bot",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Security Remediation Bot** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "skill-discovery-server",
+      "description": "This is a meta-MCP server built using the **AAS Core methodology**."
+    },
+    {
+      "name": "slo-violation-detector",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Slo Violation Detector** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "software-license-optimizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Software License Optimizer** skill, an MCP server designed to Find unused SaaS licenses to cut costs."
+    },
+    {
+      "name": "spot-instance-advisor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Spot Instance Advisor** skill, an MCP server designed to Identifies workloads that can be safely moved to AWS Spot instances."
+    },
+    {
+      "name": "sprint-goal-generator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Sprint Goal Generator** skill, an MCP server designed to Uses AI to synthesize a 1-sentence sprint goal from the sprint backlog."
+    },
+    {
+      "name": "sprint-retro-summarizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Sprint Retro Summarizer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "sprint-spillover-forecaster",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Sprint Spillover Forecaster** skill, an MCP server designed to Predict which tickets will spill over based on historical patterns."
+    },
+    {
+      "name": "ssrf-vulnerability-scanner",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Ssrf Vulnerability Scanner** skill, an MCP server designed to Scans code for URL parsing patterns susceptible to SSRF."
+    },
+    {
+      "name": "stakeholder-update-generator",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Stakeholder Update Generator** skill, an MCP server designed to Draft status updates tailored to specific C-suite personas."
+    },
+    {
+      "name": "standup-blocker-summarizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Standup Blocker Summarizer** skill, an MCP server designed to Extract blockers from daily async standups in Slack."
+    },
+    {
+      "name": "story-point-calibration-bot",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Story Point Calibration Bot** skill, an MCP server designed to Identifies teams whose 5-point stories take wildly different times."
+    },
+    {
+      "name": "team-topology-mapper",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Team Topology Mapper** skill, an MCP server designed to Analyze interactions to suggest Conway's Law optimizations."
+    },
+    {
+      "name": "tech-debt-quantifier",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Tech Debt Quantifier** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "third-party-api-downtime-tracker",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Third Party Api Downtime Tracker** skill, an MCP server designed to Correlates internal errors with external API status pages (e.g. Stripe, Twilio)."
+    },
+    {
+      "name": "threat-model-assistant",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Threat Model Assistant** skill, an MCP server designed to Generate STRIDE threat models from architecture docs."
+    },
+    {
+      "name": "toil-quantifier",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Toil Quantifier** skill, an MCP server designed to Measure engineering time spent on manual ops/support tasks."
+    },
+    {
+      "name": "tpm-portfolio-summarizer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Tpm Portfolio Summarizer** skill, an MCP server designed to Rolls up status across all 100 skills into a master executive dashboard."
+    },
+    {
+      "name": "tribal-knowledge-extractor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Tribal Knowledge Extractor** skill, an MCP server designed to Analyzes Slack threads to generate Q&A pairs for the internal wiki."
+    },
+    {
+      "name": "velocity-burnout-predictor",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Velocity Burnout Predictor** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "vendor-contract-analyzer",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Vendor Contract Analyzer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+    },
+    {
+      "name": "vendor-security-questionnaire-bot",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Vendor Security Questionnaire Bot** skill, an MCP server designed to Auto-drafts answers to vendor security questionnaires based on past responses."
+    },
+    {
+      "name": "zombie-service-detector",
+      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Zombie Service Detector** skill, an MCP server designed to Finds microservices with 0 traffic in the last 30 days."
+    }
+  ]
+}
