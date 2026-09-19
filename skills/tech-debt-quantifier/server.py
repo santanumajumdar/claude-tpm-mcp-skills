@@ -1,46 +1,33 @@
-import os
-import json
-import logging
-import requests
-from mcp.server.fastmcp import FastMCP
+from fastapi import FastAPI
+from pydantic import BaseModel
+import uvicorn
+from typing import List
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+app = FastAPI(title="Tech Debt Quantifier MCP")
 
-mcp = FastMCP('TechDebtQuantifier')
+class DebtItem(BaseModel):
+    component: str
+    debt_type: str  # e.g., "code_smell", "missing_tests", "legacy_dependency"
+    severity: str
 
-@mcp.tool()
-def get_sonar_metrics(repo_name: str) -> str:
+class QuantifiedDebt(BaseModel):
+    estimated_hours_lost_per_month: int
+    risk_level: str
+    executive_summary: str
+
+@app.post("/quantify", response_model=QuantifiedDebt)
+async def quantify_debt(items: List[DebtItem]):
     """
-    Retrieves cyclomatic complexity and code smell counts from SonarQube,
-    then applies an algorithm to estimate business cost in engineering hours.
+    Quantify the business impact of technical debt.
     """
-    sonar_url = os.environ.get("SONAR_HOST_URL")
-    sonar_token = os.environ.get("SONAR_TOKEN")
+    hours = len(items) * 5  # Simple heuristic for demonstration
+    risk = "High" if any(i.severity == "Critical" for i in items) else "Medium"
     
-    if not sonar_url or not sonar_token:
-        logger.warning("SonarQube credentials missing. Using simulation mode.")
-        return json.dumps({
-            'repo': repo_name,
-            'metrics': {
-                'code_smells': 142,
-                'cyclomatic_complexity': 45,
-                'duplication_pct': 12.4
-            },
-            'estimated_wasted_engineering_hours_per_month': 35.5
-        })
+    return QuantifiedDebt(
+        estimated_hours_lost_per_month=hours,
+        risk_level=risk,
+        executive_summary=f"We have {len(items)} major technical debt items costing us ~{hours} hours of lost productivity per month."
+    )
 
-    try:
-        # Example API call
-        # response = requests.get(f"{sonar_url}/api/measures/component?component={repo_name}", auth=(sonar_token, ''))
-        # response.raise_for_status()
-        pass
-    except requests.exceptions.RequestException as e:
-        logger.error(f"Failed to connect to SonarQube: {e}")
-        return json.dumps({"error": "Connection failed"})
-        
-    return json.dumps({"status": "Success"})
-
-if __name__ == '__main__':
-    logger.info("Starting Tech Debt Quantifier MCP Server...")
-    mcp.run()
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
