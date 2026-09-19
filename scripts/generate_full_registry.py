@@ -77,9 +77,11 @@ def get_tier5_skills():
     if os.path.exists(base_dir):
         for item in os.listdir(base_dir):
             item_path = os.path.join(base_dir, item)
-            if os.path.isdir(item_path):
+            if item.endswith(".py") or os.path.isdir(item_path):
+                if item == "README.md": continue
+                name = item.replace(".py", "").replace("-", " ").replace("_", " ").title()
                 skills.append({
-                    "name": item.replace("-", " ").title(),
+                    "name": name,
                     "description": "An autonomous multi-agent swarm.",
                     "tier": 5,
                     "type": "Multi-Agent Swarm",

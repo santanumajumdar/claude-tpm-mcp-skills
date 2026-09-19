@@ -1,5 +1,5 @@
 {
-  "total_skills": 510,
+  "total_skills": 511,
   "skills": [
     {
       "name": "Garbage Collection Tuner",
@@ -3570,6 +3570,13 @@
       "tier": 4,
       "type": "MCP Meta-Server",
       "path": "skills/skill-discovery-server"
+    },
+    {
+      "name": "Saas Factory Swarm",
+      "description": "An autonomous multi-agent swarm.",
+      "tier": 5,
+      "type": "Multi-Agent Swarm",
+      "path": "swarms/saas_factory_swarm.py"
     }
   ]
 }
