@@ -1,5 +1,5 @@
 {
-  "total_skills": 104,
+  "total_skills": 106,
   "skills": [
     {
       "name": "a-b-test-significance-calculator",
@@ -190,6 +190,10 @@
       "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Idle Load Balancer Sweeper** skill, an MCP server designed to Finds and removes unused ALBs/ELBs."
     },
     {
+      "name": "incident-postmortem-generator",
+      "description": "This MCP server automates the creation of blameless 5-Whys incident postmortems by analyzing structured event logs, summarizing the timeline, and drafting the core document."
+    },
+    {
       "name": "incident-timeline-extractor",
       "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Incident Timeline Extractor** skill, an MCP server designed to Build precise incident timelines from Slack and PagerDuty."
     },
@@ -354,6 +358,10 @@
       "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Sprint Retro Summarizer** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
     },
     {
+      "name": "sprint-spillover-analyzer",
+      "description": "This MCP server analyzes Jira tickets (or generic ticket JSON) to identify items that have rolled over multiple sprints, categorizing the root causes for spillover to help teams improve their velocity predictability."
+    },
+    {
       "name": "sprint-spillover-forecaster",
       "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Sprint Spillover Forecaster** skill, an MCP server designed to Predict which tickets will spill over based on historical patterns."
     },
@@ -379,7 +387,7 @@
     },
     {
       "name": "tech-debt-quantifier",
-      "description": "## \ud83d\udcd6 Overview\nThis directory contains the **Tech Debt Quantifier** skill, implemented as a standard Model Context Protocol (MCP) server. When attached to Claude Desktop or Cursor, it grants the AI the ability to securely connect to your enterprise tools and autonomously execute the specialized TPM workflows defined in `prompt.md`."
+      "description": "This MCP server helps engineering managers and TPMs translate abstract technical debt (e.g., SonarQube code smells, missing test coverage, legacy dependencies) into concrete business impact."
     },
     {
       "name": "third-party-api-downtime-tracker",
