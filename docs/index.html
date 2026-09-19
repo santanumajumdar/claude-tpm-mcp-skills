@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,18 @@
             theme: {
                 extend: {
                     colors: {
-                        dark: '#0a0a0a',
-                        card: '#111111',
-                        border: '#222222',
-                        brand: '#6d28d9', // Violet-700
-                        brandLight: '#8b5cf6', // Violet-500
+                        glass: 'rgba(255, 255, 255, 0.03)',
+                        glassBorder: 'rgba(255, 255, 255, 0.1)',
+                    },
+                    animation: {
+                        'spin-slow': 'spin 15s linear infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
                     }
                 }
             }
@@ -23,106 +30,231 @@
     </script>
     <style>
         body {
-            background-color: #0a0a0a;
+            background-color: #030014;
             color: #ededed;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            overflow-x: hidden;
         }
-        .hero-glow {
+        
+        /* Crystal / Glassmorphism Effects */
+        .glass-panel {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .glass-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.005) 100%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        .glass-card:hover {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px 0 rgba(139, 92, 246, 0.15);
+        }
+
+        /* Ambient Glowing Orbs */
+        .orb-1 {
             position: absolute;
             top: -10%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60vw;
-            height: 60vh;
-            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(0,0,0,0) 70%);
-            z-index: -1;
+            left: 10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(0,0,0,0) 60%);
+            border-radius: 50%;
             pointer-events: none;
+            z-index: -1;
         }
-        .card-hover {
-            transition: all 0.2s ease-in-out;
+        
+        .orb-2 {
+            position: absolute;
+            top: 40%;
+            right: -10%;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(56, 189, 248, 0.1) 0%, rgba(0,0,0,0) 60%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: -1;
         }
-        .card-hover:hover {
-            transform: translateY(-2px);
-            border-color: #8b5cf6;
-            box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.2);
+
+        /* Text Gradients */
+        .text-crystal {
+            background: linear-gradient(to right, #fff, #a5b4fc, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
+
         .terminal {
-            background: #000;
-            border: 1px solid #333;
-            border-radius: 8px;
-            font-family: monospace;
-            padding: 1.5rem;
-            color: #a3a3a3;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
         }
     </style>
 </head>
-<body class="antialiased min-h-screen flex flex-col relative overflow-x-hidden">
-    <div class="hero-glow"></div>
+<body class="antialiased min-h-screen flex flex-col relative selection:bg-purple-500/30">
+    <!-- Ambient Backgrounds -->
+    <div class="orb-1 animate-float"></div>
+    <div class="orb-2" style="animation: float 8s ease-in-out infinite reverse;"></div>
 
     <!-- Nav -->
-    <nav class="border-b border-border bg-dark/80 backdrop-blur-md sticky top-0 z-50">
+    <nav class="fixed w-full top-0 z-50 glass-panel border-b-0 border-white/10">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-            <div class="font-bold text-xl flex items-center gap-2">
-                <span class="text-brandLight">⚡️</span> MCP Skills
+            <div class="font-bold text-xl flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center shadow-lg shadow-purple-500/20">
+                    <span class="text-white text-sm">⚡</span>
+                </div>
+                <span class="tracking-wide">MCP<span class="font-light text-gray-400">Skills</span></span>
             </div>
-            <div class="flex gap-4 text-sm font-medium">
-                <a href="documentation.html" class="hover:text-white text-gray-400 transition">Docs</a>
-                <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills" target="_blank" class="hover:text-white text-gray-400 transition">GitHub</a>
+            <div class="flex gap-6 text-sm font-medium items-center">
+                <a href="#tiers" class="hover:text-purple-400 text-gray-300 transition">Tiers</a>
+                <a href="documentation.html" class="hover:text-purple-400 text-gray-300 transition">Docs</a>
+                <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills" target="_blank" class="px-4 py-2 rounded-full glass-card hover:bg-white/10 transition flex items-center gap-2">
+                    GitHub <span class="text-xs">&nearr;</span>
+                </a>
             </div>
         </div>
     </nav>
 
     <!-- Hero -->
-    <main class="flex-grow max-w-7xl mx-auto px-6 w-full pb-20">
-        <div class="pt-24 pb-16 md:pt-32 md:pb-24 max-w-3xl">
-            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+    <main class="flex-grow max-w-7xl mx-auto px-6 w-full pt-32 pb-20 relative z-10">
+        <div class="pt-16 pb-20 text-center max-w-4xl mx-auto">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel text-xs text-purple-300 mb-8 border-purple-500/30">
+                <span class="relative flex h-2 w-2">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+                </span>
+                107+ Engineering Skills Now Available
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 text-crystal leading-tight drop-shadow-2xl">
                 Supercharge Claude for Engineering Leaders.
             </h1>
-            <p class="text-xl text-gray-400 mb-8 leading-relaxed">
-                A massive open-source collection of 100+ Model Context Protocol (MCP) servers designed specifically for Technical Project Managers, Agile Coaches, and Engineering Managers.
+            
+            <p class="text-xl text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto font-light">
+                A massive open-source collection of Model Context Protocol (MCP) servers and AI workflows designed specifically for Technical Project Managers, Agile Coaches, and EMs.
             </p>
-            <div class="flex flex-wrap gap-4">
-                <a href="#skills" class="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-gray-200 transition">
-                    Explore Skills
+            
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#skills" class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-medium hover:shadow-[0_0_30px_-5px_rgba(139,92,246,0.5)] transition-all transform hover:scale-105">
+                    Explore Skills Registry
                 </a>
-                <a href="documentation.html" class="bg-card border border-border px-6 py-3 rounded-md font-medium hover:bg-border transition">
-                    Read the Docs
+                <a href="#tiers" class="glass-panel px-8 py-4 rounded-full font-medium hover:bg-white/10 transition-all">
+                    View Architecture Tiers
                 </a>
             </div>
         </div>
 
-        <div class="terminal mb-24 max-w-3xl">
-            <div class="flex gap-2 mb-4">
-                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+        <!-- Terminal Crystal Block -->
+        <div class="max-w-3xl mx-auto mb-32 transform -rotate-1 hover:rotate-0 transition-transform duration-500">
+            <div class="glass-panel rounded-2xl p-6 terminal text-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] border-t border-l border-white/20">
+                <div class="flex gap-2 mb-6">
+                    <div class="w-3 h-3 rounded-full bg-red-500/80 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500/80 shadow-[0_0_10px_rgba(234,179,8,0.5)]"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500/80 shadow-[0_0_10px_rgba(34,197,94,0.5)]"></div>
+                </div>
+                <div class="space-y-3">
+                    <p><span class="text-purple-400">~</span> <span class="text-blue-400 font-bold">git</span> clone https://github.com/santanumajumdar/claude-tpm-mcp-skills.git</p>
+                    <p><span class="text-purple-400">~</span> <span class="text-blue-400 font-bold">cd</span> claude-tpm-mcp-skills/skills/sprint-spillover-analyzer</p>
+                    <p><span class="text-purple-400">~</span> <span class="text-blue-400 font-bold">uvicorn</span> server:app --host 0.0.0.0 --port 8000</p>
+                    <p class="text-gray-500 mt-4 italic"># ✨ Server running! Claude can now access your sprint metrics.</p>
+                </div>
             </div>
-            <p><span class="text-green-400">~</span> <span class="text-blue-400">git</span> clone https://github.com/santanumajumdar/claude-tpm-mcp-skills.git</p>
-            <p><span class="text-green-400">~</span> <span class="text-blue-400">cd</span> claude-tpm-mcp-skills/skills/sprint-spillover-analyzer</p>
-            <p><span class="text-green-400">~</span> <span class="text-blue-400">uvicorn</span> server:app --host 0.0.0.0 --port 8000</p>
-            <p class="text-gray-500 mt-2"># Server running! Claude can now analyze your sprint metrics.</p>
+        </div>
+
+        <!-- Tiers Section -->
+        <div id="tiers" class="mb-32 scroll-mt-24">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-crystal mb-4">Architecture Tiers</h2>
+                <p class="text-gray-400">Choose your level of technical integration, from no-code to autonomous swarms.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Tier 1 -->
+                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-blue-500/20 transition-all"></div>
+                    <div class="text-4xl mb-4">🌟</div>
+                    <div class="text-xs font-bold text-blue-400 mb-2 uppercase tracking-wider">Tier 1</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Claude Native Skills</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">No-code system prompts and project knowledge files. Just copy, paste, and instantly upgrade your Claude interface without running servers.</p>
+                </div>
+
+                <!-- Tier 2 -->
+                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group border-purple-500/30 shadow-[0_0_20px_rgba(139,92,246,0.1)]">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-purple-500/20 transition-all"></div>
+                    <div class="text-4xl mb-4">🔌</div>
+                    <div class="text-xs font-bold text-purple-400 mb-2 uppercase tracking-wider">Tier 2</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">MCP Servers</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Advanced local execution. 107+ Python FastAPI servers that connect Claude directly to your Jira, GitHub, databases, and CI/CD pipelines.</p>
+                </div>
+
+                <!-- Tier 3 -->
+                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-green-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-green-500/20 transition-all"></div>
+                    <div class="text-4xl mb-4">⚙️</div>
+                    <div class="text-xs font-bold text-green-400 mb-2 uppercase tracking-wider">Tier 3</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Code Terminal Harnesses</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Advanced CLI integrations allowing Claude to run terminal commands natively to orchestrate complex deployment or auditing workflows.</p>
+                </div>
+                
+                <!-- Tier 4 -->
+                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group lg:col-span-1 md:col-span-2">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-pink-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-pink-500/20 transition-all"></div>
+                    <div class="text-4xl mb-4">🤖</div>
+                    <div class="text-xs font-bold text-pink-400 mb-2 uppercase tracking-wider">Tier 4</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Agent-First Skill Discovery</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">An MCP Meta-Server that acts as a router. When Claude needs a capability it doesn't have, it queries this registry to discover and load the right tool dynamically.</p>
+                </div>
+
+                <!-- Tier 5 -->
+                <div class="glass-card rounded-2xl p-8 relative overflow-hidden group lg:col-span-2 md:col-span-2">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-orange-500/10 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-orange-500/20 transition-all"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="text-4xl">🐝</div>
+                        <span class="px-2 py-1 bg-orange-500/20 text-orange-400 text-xs font-bold rounded">NEW</span>
+                    </div>
+                    <div class="text-xs font-bold text-orange-400 mb-2 uppercase tracking-wider">Tier 5</div>
+                    <h3 class="text-xl font-bold mb-3 text-white">Autonomous Multi-Agent Swarms</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed max-w-xl">Fully autonomous ecosystems where specialized sub-agents (e.g., QA Bot, DevOps Bot, Code Review Bot) communicate with each other over MCP to solve massive epic-level issues with zero human intervention.</p>
+                </div>
+            </div>
         </div>
 
         <!-- Skills Section -->
-        <div id="skills" class="pt-10 scroll-mt-20">
-            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
-                <h2 class="text-3xl font-bold">Skill Registry</h2>
-                <input type="text" id="searchInput" placeholder="Search 100+ skills (e.g. Jira, Sprint)..." class="bg-card border border-border rounded-md px-4 py-2 w-full md:w-80 text-sm focus:outline-none focus:border-brandLight focus:ring-1 focus:ring-brandLight transition">
+        <div id="skills" class="pt-10 scroll-mt-24">
+            <div class="glass-panel rounded-2xl p-2 flex flex-col md:flex-row md:items-center justify-between mb-10 sticky top-20 z-40">
+                <h2 class="text-2xl font-bold px-4 py-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-white">Tier 2 Registry</h2>
+                <div class="relative w-full md:w-96">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <svg class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+                    <input type="text" id="searchInput" placeholder="Search 107+ servers (e.g. Jira, Sprint)..." class="bg-black/50 border border-white/10 rounded-xl pl-10 pr-4 py-3 w-full text-sm text-white focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition shadow-inner">
+                </div>
             </div>
 
-            <div id="loading" class="text-gray-500 text-center py-10">Loading skills...</div>
+            <div id="loading" class="text-purple-400 text-center py-20 animate-pulse">
+                <div class="inline-block w-8 h-8 border-2 border-purple-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                <p>Initializing crystal registry...</p>
+            </div>
             
-            <div id="skillsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div id="skillsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 <!-- JavaScript will populate this -->
             </div>
             
-            <div id="noResults" class="hidden text-gray-500 text-center py-10">
-                No skills found matching your search.
+            <div id="noResults" class="hidden text-gray-500 text-center py-20 glass-panel rounded-2xl">
+                <div class="text-4xl mb-4">🔍</div>
+                <p>No crystalline skills found matching your search.</p>
             </div>
         </div>
     </main>
 
-    <footer class="border-t border-border mt-auto py-8 text-center text-sm text-gray-500">
+    <footer class="border-t border-white/10 mt-auto py-10 text-center text-sm text-gray-500 relative z-10 bg-black/50 backdrop-blur-md">
         <p>Open Source & Built for the Community by Santanu Majumdar.</p>
     </footer>
 
@@ -138,7 +270,7 @@
                 renderSkills(allSkills);
             })
             .catch(err => {
-                document.getElementById('loading').innerHTML = "Failed to load skills registry. Make sure you are running on a server.";
+                document.getElementById('loading').innerHTML = "Failed to load registry. Ensure you are running on a server.";
                 console.error(err);
             });
 
@@ -158,17 +290,21 @@
             
             skills.forEach(skill => {
                 const desc = skill.description ? skill.description : "An MCP server for technical project management.";
-                // Truncate desc if too long
-                const shortDesc = desc.length > 120 ? desc.substring(0, 120) + "..." : desc;
+                const shortDesc = desc.length > 110 ? desc.substring(0, 110) + "..." : desc;
                 
                 const html = `
-                    <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/${skill.name}" target="_blank" class="block">
-                        <div class="bg-card border border-border p-5 rounded-lg h-full card-hover flex flex-col">
-                            <h3 class="font-bold text-lg mb-2 text-brandLight truncate" title="${skill.name}">${skill.name}</h3>
-                            <p class="text-sm text-gray-400 flex-grow">${shortDesc}</p>
-                            <div class="mt-4 pt-4 border-t border-border flex justify-between items-center text-xs text-gray-500">
-                                <span>Python</span>
-                                <span class="hover:text-white transition">View Source &rarr;</span>
+                    <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/${skill.name}" target="_blank" class="block h-full">
+                        <div class="glass-card p-6 rounded-2xl h-full flex flex-col relative overflow-hidden group">
+                            <div class="absolute -right-6 -top-6 w-24 h-24 bg-purple-500/5 rounded-full blur-xl group-hover:bg-purple-500/20 transition-all"></div>
+                            
+                            <h3 class="font-bold text-lg mb-3 text-white truncate group-hover:text-purple-300 transition-colors" title="${skill.name}">
+                                ${skill.name.replace(/-/g, ' ')}
+                            </h3>
+                            <p class="text-sm text-gray-400 flex-grow font-light leading-relaxed">${shortDesc}</p>
+                            
+                            <div class="mt-6 pt-4 border-t border-white/5 flex justify-between items-center text-xs">
+                                <span class="px-2 py-1 rounded bg-black/50 text-gray-500 border border-white/5 font-mono">MCP / Python</span>
+                                <span class="text-purple-400 opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-2 group-hover:translate-x-0">View Source &rarr;</span>
                             </div>
                         </div>
                     </a>
