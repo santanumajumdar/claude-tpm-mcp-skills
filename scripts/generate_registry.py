@@ -43,6 +43,11 @@ def main():
     }
     
     out_path = "skills_registry.json"
+    import shutil
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(registry, f, indent=2)
+    shutil.copy(out_path, "docs/skills_registry.json")
+    return
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(registry, f, indent=2)
     

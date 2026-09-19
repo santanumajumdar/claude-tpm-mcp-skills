@@ -1,33 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
-  <meta charset="UTF-8">
-  <title>Big Tech AI Skills Megarepo</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="400+ Claude AI Skills & MCP Servers for Big Tech Engineering Leaders.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude TPM MCP Skills</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0a0a0a',
+                        card: '#111111',
+                        border: '#222222',
+                        brand: '#6d28d9', // Violet-700
+                        brandLight: '#8b5cf6', // Violet-500
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #ededed;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        .hero-glow {
+            position: absolute;
+            top: -10%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60vw;
+            height: 60vh;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+        .card-hover {
+            transition: all 0.2s ease-in-out;
+        }
+        .card-hover:hover {
+            transform: translateY(-2px);
+            border-color: #8b5cf6;
+            box-shadow: 0 10px 30px -10px rgba(139, 92, 246, 0.2);
+        }
+        .terminal {
+            background: #000;
+            border: 1px solid #333;
+            border-radius: 8px;
+            font-family: monospace;
+            padding: 1.5rem;
+            color: #a3a3a3;
+        }
+    </style>
 </head>
-<body>
-  <div id="app">Loading the ultimate AI Megarepo...</div>
-  <script>
-    window.$docsify = {
-      homepage: 'README.md',
-      name: '🧠 AI Megarepo',
-      repo: 'santanumajumdar/claude-tpm-mcp-skills',
-      loadSidebar: true,
-      subMaxLevel: 3,
-      themeColor: '#3F51B5',
-      search: 'auto',
-    }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- Search Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <!-- Syntax Highlighting -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+<body class="antialiased min-h-screen flex flex-col relative overflow-x-hidden">
+    <div class="hero-glow"></div>
+
+    <!-- Nav -->
+    <nav class="border-b border-border bg-dark/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="font-bold text-xl flex items-center gap-2">
+                <span class="text-brandLight">⚡️</span> MCP Skills
+            </div>
+            <div class="flex gap-4 text-sm font-medium">
+                <a href="documentation.html" class="hover:text-white text-gray-400 transition">Docs</a>
+                <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills" target="_blank" class="hover:text-white text-gray-400 transition">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <main class="flex-grow max-w-7xl mx-auto px-6 w-full pb-20">
+        <div class="pt-24 pb-16 md:pt-32 md:pb-24 max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+                Supercharge Claude for Engineering Leaders.
+            </h1>
+            <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+                A massive open-source collection of 100+ Model Context Protocol (MCP) servers designed specifically for Technical Project Managers, Agile Coaches, and Engineering Managers.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="#skills" class="bg-white text-black px-6 py-3 rounded-md font-medium hover:bg-gray-200 transition">
+                    Explore Skills
+                </a>
+                <a href="documentation.html" class="bg-card border border-border px-6 py-3 rounded-md font-medium hover:bg-border transition">
+                    Read the Docs
+                </a>
+            </div>
+        </div>
+
+        <div class="terminal mb-24 max-w-3xl">
+            <div class="flex gap-2 mb-4">
+                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+            </div>
+            <p><span class="text-green-400">~</span> <span class="text-blue-400">git</span> clone https://github.com/santanumajumdar/claude-tpm-mcp-skills.git</p>
+            <p><span class="text-green-400">~</span> <span class="text-blue-400">cd</span> claude-tpm-mcp-skills/skills/sprint-spillover-analyzer</p>
+            <p><span class="text-green-400">~</span> <span class="text-blue-400">uvicorn</span> server:app --host 0.0.0.0 --port 8000</p>
+            <p class="text-gray-500 mt-2"># Server running! Claude can now analyze your sprint metrics.</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="skills" class="pt-10 scroll-mt-20">
+            <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
+                <h2 class="text-3xl font-bold">Skill Registry</h2>
+                <input type="text" id="searchInput" placeholder="Search 100+ skills (e.g. Jira, Sprint)..." class="bg-card border border-border rounded-md px-4 py-2 w-full md:w-80 text-sm focus:outline-none focus:border-brandLight focus:ring-1 focus:ring-brandLight transition">
+            </div>
+
+            <div id="loading" class="text-gray-500 text-center py-10">Loading skills...</div>
+            
+            <div id="skillsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- JavaScript will populate this -->
+            </div>
+            
+            <div id="noResults" class="hidden text-gray-500 text-center py-10">
+                No skills found matching your search.
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-border mt-auto py-8 text-center text-sm text-gray-500">
+        <p>Open Source & Built for the Community by Santanu Majumdar.</p>
+    </footer>
+
+    <script>
+        let allSkills = [];
+
+        // Fetch the skills registry
+        fetch('skills_registry.json')
+            .then(res => res.json())
+            .then(data => {
+                allSkills = data.skills;
+                document.getElementById('loading').classList.add('hidden');
+                renderSkills(allSkills);
+            })
+            .catch(err => {
+                document.getElementById('loading').innerHTML = "Failed to load skills registry. Make sure you are running on a server.";
+                console.error(err);
+            });
+
+        // Render function
+        function renderSkills(skills) {
+            const grid = document.getElementById('skillsGrid');
+            const noResults = document.getElementById('noResults');
+            
+            grid.innerHTML = '';
+            
+            if (skills.length === 0) {
+                noResults.classList.remove('hidden');
+                return;
+            }
+            
+            noResults.classList.add('hidden');
+            
+            skills.forEach(skill => {
+                const desc = skill.description ? skill.description : "An MCP server for technical project management.";
+                // Truncate desc if too long
+                const shortDesc = desc.length > 120 ? desc.substring(0, 120) + "..." : desc;
+                
+                const html = `
+                    <a href="https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/${skill.name}" target="_blank" class="block">
+                        <div class="bg-card border border-border p-5 rounded-lg h-full card-hover flex flex-col">
+                            <h3 class="font-bold text-lg mb-2 text-brandLight truncate" title="${skill.name}">${skill.name}</h3>
+                            <p class="text-sm text-gray-400 flex-grow">${shortDesc}</p>
+                            <div class="mt-4 pt-4 border-t border-border flex justify-between items-center text-xs text-gray-500">
+                                <span>Python</span>
+                                <span class="hover:text-white transition">View Source &rarr;</span>
+                            </div>
+                        </div>
+                    </a>
+                `;
+                grid.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = allSkills.filter(skill => 
+                skill.name.toLowerCase().includes(query) || 
+                (skill.description && skill.description.toLowerCase().includes(query))
+            );
+            renderSkills(filtered);
+        });
+    </script>
 </body>
 </html>
