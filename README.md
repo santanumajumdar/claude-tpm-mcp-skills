@@ -9,11 +9,6 @@
 ## 📌 Overview
 
 <br/>
-<div align="center">
-  <img src="https://raw.githubusercontent.com/santanumajumdar/claude-tpm-mcp-skills/main/.github/terminal_demo.svg" alt="Terminal Demo" onerror="this.style.display='none'"/>
-  <i>Witness the power of advanced agent workflows directly in your CLI.</i>
-</div>
-<br/>
 \nThis repository provides highly advanced AI personas and skills tailored for Engineering Leaders. We offer two distinct tiers of usage depending on your technical comfort level.
 
 ### 🌟 Tier 1: Claude Native Skills (No-Code)
@@ -27,7 +22,7 @@ Located in the `/claude-native-skills/` directory. These are purely prompt-based
 
 
 ### 🔌 Tier 2: MCP Servers (Advanced / Local Execution)
-Located in the `/skills/` directory. These are the 100 TPM skills implemented as **Model Context Protocol (MCP)** servers. 
+Located in the `/skills/` directory. These are the 106 TPM skills implemented as **Model Context Protocol (MCP)** servers. 
 **How to use:** These require local Python execution. They connect directly to your local APIs (Jira, GitHub, Datadog, AWS) so Claude can autonomously fetch data and execute workflows.
 
 
@@ -123,7 +118,7 @@ Located in `/swarms`. Why use one agent when you can use five? These Python orch
 | [Third Party Api Downtime Tracker](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/third-party-api-downtime-tracker) | Correlates internal errors with external API status pages (e.g. Stripe, Twilio). | `DATADOG_API` |
 | [Pr Size Enforcer](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/pr-size-enforcer) | Warns developers in Slack if a PR exceeds 500 lines of code. | `GitHub`, `SLACK_BOT` |
 | [Error Message Polisher](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/error-message-polisher) | Scans codebase for unhelpful error messages and suggests improvements. | `GitHub` |
-| [Tpm Portfolio Summarizer](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/tpm-portfolio-summarizer) | Rolls up status across all 100 skills into a master executive dashboard. | `Jira`, `GitHub` |
+| [Tpm Portfolio Summarizer](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/tpm-portfolio-summarizer) | Rolls up status across all 106 skills into a master executive dashboard. | `Jira`, `GitHub` |
 | [Bug Bounce Analyzer](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/bug-bounce-analyzer) | Identify tickets that are frequently reopened to find testing gaps. | `Jira` |
 | [Qa Test Gap Analyzer](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/qa-test-gap-analyzer) | Correlate PR code changes against E2E test coverage to find gaps. | `GitHub` |
 | [Sprint Spillover Forecaster](https://github.com/santanumajumdar/claude-tpm-mcp-skills/tree/main/skills/sprint-spillover-forecaster) | Predict which tickets will spill over based on historical patterns. | `Jira` |
