@@ -263,7 +263,7 @@
         let currentTier = 0; // 0 means all
 
         // Fetch the full skills registry
-        fetch('full_registry.json')
+        fetch('full_registry.json?v=' + new Date().getTime())
             .then(res => res.json())
             .then(data => {
                 allSkills = data.skills;
